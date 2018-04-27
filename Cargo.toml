@@ -7,7 +7,7 @@ authors = ["Chris Ballinger <chrisballinger@gmail.com>"]
 name = "example"
 crate-type = ["staticlib"]
 
-[lib.release]
+[profile.release]
 debug = true
 
 [dependencies]
