@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		D9092D292093D3A3009F47D8 /* ExampleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D3A2093D755009F47D8 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D392093D755009F47D8 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9092D492093D7AA009F47D8 /* Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D402093D7A9009F47D8 /* Example.framework */; };
+		D9092D492093D7AA009F47D8 /* ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D402093D7A9009F47D8 /* ExampleSwift.framework */; };
 		D9092D4E2093D7AA009F47D8 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */; };
-		D9092D502093D7AA009F47D8 /* Example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9092D502093D7AA009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D582093D7F6009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
 		D9092D5C2093D808009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
 		D9092D6D2093DB80009F47D8 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D6C2093DB80009F47D8 /* libexample.a */; };
@@ -21,8 +21,8 @@
 		D9092D852093E464009F47D8 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D392093D755009F47D8 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D962093E528009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
 		D9092D982093E528009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
-		D9092D9A2093E528009F47D8 /* Example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9092DB72093E629009F47D8 /* Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D9F2093E528009F47D8 /* Example.framework */; };
+		D9092D9A2093E528009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9092DB72093E629009F47D8 /* ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D9F2093E528009F47D8 /* ExampleSwift.framework */; };
 		D9092DBF2093E729009F47D8 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */; };
 		D9092DC02093E82B009F47D8 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D8E2093E4E6009F47D8 /* libexample.a */; };
 		D9092DC22093E852009F47D8 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092DC12093E852009F47D8 /* libresolv.tbd */; };
@@ -37,13 +37,13 @@
 		D9092DDD2093EA32009F47D8 /* ExampleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092DDE2093EA32009F47D8 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D392093D755009F47D8 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092DE92093EAAA009F47D8 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */; };
-		D9092DEB2093EAAA009F47D8 /* Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D9F2093E528009F47D8 /* Example.framework */; };
+		D9092DEB2093EAAA009F47D8 /* ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D9F2093E528009F47D8 /* ExampleSwift.framework */; };
 		D9092DF62093EB15009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
 		D9092DF82093EB15009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
-		D9092DFA2093EB15009F47D8 /* Example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9092DFA2093EB15009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092E052093EB74009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
 		D9092E072093EB74009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
-		D9092E092093EB74009F47D8 /* Example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9092E092093EB74009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,8 +134,8 @@
 		D9092D312093D447009F47D8 /* lib.rs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lib.rs; sourceTree = "<group>"; };
 		D9092D332093D447009F47D8 /* string.rs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = string.rs; sourceTree = "<group>"; };
 		D9092D392093D755009F47D8 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = example.h; sourceTree = "<group>"; };
-		D9092D402093D7A9009F47D8 /* Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9092D422093D7AA009F47D8 /* Example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		D9092D402093D7A9009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9092D422093D7AA009F47D8 /* ExampleSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleSwift.h; sourceTree = "<group>"; };
 		D9092D432093D7AA009F47D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9092D482093D7AA009F47D8 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
@@ -145,14 +145,14 @@
 		D9092D702093DD4A009F47D8 /* empty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
 		D9092D8A2093E464009F47D8 /* ExampleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092D8E2093E4E6009F47D8 /* libexample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexample.a; path = target/universal/release/libexample.a; sourceTree = "<group>"; };
-		D9092D9F2093E528009F47D8 /* Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9092D9F2093E528009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092DB22093E629009F47D8 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092DC12093E852009F47D8 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
 		D9092DD22093E9B0009F47D8 /* ExampleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092DE32093EA32009F47D8 /* ExampleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092DF02093EAAA009F47D8 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9092DFF2093EB15009F47D8 /* Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9092E0E2093EB74009F47D8 /* Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9092DFF2093EB15009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9092E0E2093EB74009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092D492093D7AA009F47D8 /* Example.framework in Frameworks */,
+				D9092D492093D7AA009F47D8 /* ExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092DB72093E629009F47D8 /* Example.framework in Frameworks */,
+				D9092DB72093E629009F47D8 /* ExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092DEB2093EAAA009F47D8 /* Example.framework in Frameworks */,
+				D9092DEB2093EAAA009F47D8 /* ExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +256,7 @@
 				D9092D5E2093D98B009F47D8 /* rust-libs */,
 				D9092D2F2093D447009F47D8 /* src */,
 				D9092D262093D3A3009F47D8 /* ExampleCore */,
-				D9092D412093D7AA009F47D8 /* Example */,
+				D9092D412093D7AA009F47D8 /* ExampleSwift */,
 				D9092D4C2093D7AA009F47D8 /* ExampleTests */,
 				D9092D252093D3A3009F47D8 /* Products */,
 				D9092D5B2093D808009F47D8 /* Frameworks */,
@@ -267,16 +267,16 @@
 			isa = PBXGroup;
 			children = (
 				D9092D242093D3A3009F47D8 /* ExampleCore.framework */,
-				D9092D402093D7A9009F47D8 /* Example.framework */,
+				D9092D402093D7A9009F47D8 /* ExampleSwift.framework */,
 				D9092D482093D7AA009F47D8 /* ExampleTests.xctest */,
 				D9092D8A2093E464009F47D8 /* ExampleCore.framework */,
-				D9092D9F2093E528009F47D8 /* Example.framework */,
+				D9092D9F2093E528009F47D8 /* ExampleSwift.framework */,
 				D9092DB22093E629009F47D8 /* ExampleTests.xctest */,
 				D9092DD22093E9B0009F47D8 /* ExampleCore.framework */,
 				D9092DE32093EA32009F47D8 /* ExampleCore.framework */,
 				D9092DF02093EAAA009F47D8 /* ExampleTests.xctest */,
-				D9092DFF2093EB15009F47D8 /* Example.framework */,
-				D9092E0E2093EB74009F47D8 /* Example.framework */,
+				D9092DFF2093EB15009F47D8 /* ExampleSwift.framework */,
+				D9092E0E2093EB74009F47D8 /* ExampleSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -302,14 +302,14 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		D9092D412093D7AA009F47D8 /* Example */ = {
+		D9092D412093D7AA009F47D8 /* ExampleSwift */ = {
 			isa = PBXGroup;
 			children = (
 				D9092D572093D7F6009F47D8 /* Message.swift */,
-				D9092D422093D7AA009F47D8 /* Example.h */,
+				D9092D422093D7AA009F47D8 /* ExampleSwift.h */,
 				D9092D432093D7AA009F47D8 /* Info.plist */,
 			);
-			path = Example;
+			path = ExampleSwift;
 			sourceTree = "<group>";
 		};
 		D9092D4C2093D7AA009F47D8 /* ExampleTests */ = {
@@ -370,7 +370,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092D502093D7AA009F47D8 /* Example.h in Headers */,
+				D9092D502093D7AA009F47D8 /* ExampleSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +387,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092D9A2093E528009F47D8 /* Example.h in Headers */,
+				D9092D9A2093E528009F47D8 /* ExampleSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +413,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092DFA2093EB15009F47D8 /* Example.h in Headers */,
+				D9092DFA2093EB15009F47D8 /* ExampleSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092E092093EB74009F47D8 /* Example.h in Headers */,
+				D9092E092093EB74009F47D8 /* ExampleSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,9 +478,9 @@
 			productReference = D9092D242093D3A3009F47D8 /* ExampleCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9092D3F2093D7A9009F47D8 /* Example (macOS) */ = {
+		D9092D3F2093D7A9009F47D8 /* ExampleSwift (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9092D512093D7AA009F47D8 /* Build configuration list for PBXNativeTarget "Example (macOS)" */;
+			buildConfigurationList = D9092D512093D7AA009F47D8 /* Build configuration list for PBXNativeTarget "ExampleSwift (macOS)" */;
 			buildPhases = (
 				D9092D3B2093D7A9009F47D8 /* Sources */,
 				D9092D3C2093D7A9009F47D8 /* Frameworks */,
@@ -492,9 +492,9 @@
 			dependencies = (
 				D9092D5A2093D804009F47D8 /* PBXTargetDependency */,
 			);
-			name = "Example (macOS)";
+			name = "ExampleSwift (macOS)";
 			productName = Example;
-			productReference = D9092D402093D7A9009F47D8 /* Example.framework */;
+			productReference = D9092D402093D7A9009F47D8 /* ExampleSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D9092D472093D7AA009F47D8 /* ExampleTests (macOS) */ = {
@@ -534,9 +534,9 @@
 			productReference = D9092D8A2093E464009F47D8 /* ExampleCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9092D922093E528009F47D8 /* Example (iOS) */ = {
+		D9092D922093E528009F47D8 /* ExampleSwift (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9092D9C2093E528009F47D8 /* Build configuration list for PBXNativeTarget "Example (iOS)" */;
+			buildConfigurationList = D9092D9C2093E528009F47D8 /* Build configuration list for PBXNativeTarget "ExampleSwift (iOS)" */;
 			buildPhases = (
 				D9092D952093E528009F47D8 /* Sources */,
 				D9092D972093E528009F47D8 /* Frameworks */,
@@ -548,9 +548,9 @@
 			dependencies = (
 				D9092DBE2093E6EE009F47D8 /* PBXTargetDependency */,
 			);
-			name = "Example (iOS)";
+			name = "ExampleSwift (iOS)";
 			productName = Example;
-			productReference = D9092D9F2093E528009F47D8 /* Example.framework */;
+			productReference = D9092D9F2093E528009F47D8 /* ExampleSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D9092DB12093E629009F47D8 /* ExampleTests (iOS) */ = {
@@ -627,9 +627,9 @@
 			productReference = D9092DF02093EAAA009F47D8 /* ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D9092DF22093EB15009F47D8 /* Example (watchOS) */ = {
+		D9092DF22093EB15009F47D8 /* ExampleSwift (watchOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9092DFC2093EB15009F47D8 /* Build configuration list for PBXNativeTarget "Example (watchOS)" */;
+			buildConfigurationList = D9092DFC2093EB15009F47D8 /* Build configuration list for PBXNativeTarget "ExampleSwift (watchOS)" */;
 			buildPhases = (
 				D9092DF52093EB15009F47D8 /* Sources */,
 				D9092DF72093EB15009F47D8 /* Frameworks */,
@@ -641,14 +641,14 @@
 			dependencies = (
 				D9092E112093EC7B009F47D8 /* PBXTargetDependency */,
 			);
-			name = "Example (watchOS)";
+			name = "ExampleSwift (watchOS)";
 			productName = Example;
-			productReference = D9092DFF2093EB15009F47D8 /* Example.framework */;
+			productReference = D9092DFF2093EB15009F47D8 /* ExampleSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9092E012093EB74009F47D8 /* Example (tvOS) */ = {
+		D9092E012093EB74009F47D8 /* ExampleSwift (tvOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9092E0B2093EB74009F47D8 /* Build configuration list for PBXNativeTarget "Example (tvOS)" */;
+			buildConfigurationList = D9092E0B2093EB74009F47D8 /* Build configuration list for PBXNativeTarget "ExampleSwift (tvOS)" */;
 			buildPhases = (
 				D9092E042093EB74009F47D8 /* Sources */,
 				D9092E062093EB74009F47D8 /* Frameworks */,
@@ -660,9 +660,9 @@
 			dependencies = (
 				D9092E132093EC83009F47D8 /* PBXTargetDependency */,
 			);
-			name = "Example (tvOS)";
+			name = "ExampleSwift (tvOS)";
 			productName = Example;
-			productReference = D9092E0E2093EB74009F47D8 /* Example.framework */;
+			productReference = D9092E0E2093EB74009F47D8 /* ExampleSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -711,10 +711,10 @@
 				D9092D7C2093E464009F47D8 /* ExampleCore (iOS) */,
 				D9092DC32093E9B0009F47D8 /* ExampleCore (watchOS) */,
 				D9092DD42093EA32009F47D8 /* ExampleCore (tvOS) */,
-				D9092D3F2093D7A9009F47D8 /* Example (macOS) */,
-				D9092D922093E528009F47D8 /* Example (iOS) */,
-				D9092DF22093EB15009F47D8 /* Example (watchOS) */,
-				D9092E012093EB74009F47D8 /* Example (tvOS) */,
+				D9092D3F2093D7A9009F47D8 /* ExampleSwift (macOS) */,
+				D9092D922093E528009F47D8 /* ExampleSwift (iOS) */,
+				D9092DF22093EB15009F47D8 /* ExampleSwift (watchOS) */,
+				D9092E012093EB74009F47D8 /* ExampleSwift (tvOS) */,
 				D9092D472093D7AA009F47D8 /* ExampleTests (macOS) */,
 				D9092DB12093E629009F47D8 /* ExampleTests (iOS) */,
 				D9092DE52093EAAA009F47D8 /* ExampleTests (tvOS) */,
@@ -898,7 +898,7 @@
 /* Begin PBXTargetDependency section */
 		D9092D4B2093D7AA009F47D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9092D3F2093D7A9009F47D8 /* Example (macOS) */;
+			target = D9092D3F2093D7A9009F47D8 /* ExampleSwift (macOS) */;
 			targetProxy = D9092D4A2093D7AA009F47D8 /* PBXContainerItemProxy */;
 		};
 		D9092D5A2093D804009F47D8 /* PBXTargetDependency */ = {
@@ -918,7 +918,7 @@
 		};
 		D9092DB92093E629009F47D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9092D922093E528009F47D8 /* Example (iOS) */;
+			target = D9092D922093E528009F47D8 /* ExampleSwift (iOS) */;
 			targetProxy = D9092DB82093E629009F47D8 /* PBXContainerItemProxy */;
 		};
 		D9092DBE2093E6EE009F47D8 /* PBXTargetDependency */ = {
@@ -948,7 +948,7 @@
 		};
 		D9092E152093EC90009F47D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D9092E012093EB74009F47D8 /* Example (tvOS) */;
+			target = D9092E012093EB74009F47D8 /* ExampleSwift (tvOS) */;
 			targetProxy = D9092E142093EC90009F47D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1185,7 +1185,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1201,7 +1201,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = ExampleSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1264,7 +1264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1279,7 +1279,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = ExampleSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1864,7 +1864,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1880,7 +1880,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = ExampleSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1943,7 +1943,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1958,7 +1958,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = ExampleSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -2601,7 +2601,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2617,7 +2617,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = ExampleSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2680,7 +2680,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2695,7 +2695,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = ExampleSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -2764,7 +2764,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2780,7 +2780,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = ExampleSwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -2843,7 +2843,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_FILE = ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2858,7 +2858,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = ExampleSwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -2890,7 +2890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9092D512093D7AA009F47D8 /* Build configuration list for PBXNativeTarget "Example (macOS)" */ = {
+		D9092D512093D7AA009F47D8 /* Build configuration list for PBXNativeTarget "ExampleSwift (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9092D522093D7AA009F47D8 /* Debug */,
@@ -2935,7 +2935,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9092D9C2093E528009F47D8 /* Build configuration list for PBXNativeTarget "Example (iOS)" */ = {
+		D9092D9C2093E528009F47D8 /* Build configuration list for PBXNativeTarget "ExampleSwift (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9092D9D2093E528009F47D8 /* Debug */,
@@ -2980,7 +2980,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9092DFC2093EB15009F47D8 /* Build configuration list for PBXNativeTarget "Example (watchOS)" */ = {
+		D9092DFC2093EB15009F47D8 /* Build configuration list for PBXNativeTarget "ExampleSwift (watchOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9092DFD2093EB15009F47D8 /* Debug */,
@@ -2989,7 +2989,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9092E0B2093EB74009F47D8 /* Build configuration list for PBXNativeTarget "Example (tvOS)" */ = {
+		D9092E0B2093EB74009F47D8 /* Build configuration list for PBXNativeTarget "ExampleSwift (tvOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9092E0C2093EB74009F47D8 /* Debug */,

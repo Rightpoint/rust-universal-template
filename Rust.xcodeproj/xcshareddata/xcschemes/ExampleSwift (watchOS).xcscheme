@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9092D922093E528009F47D8"
+               BlueprintIdentifier = "D9092DF22093EB15009F47D8"
                BuildableName = "Example.framework"
-               BlueprintName = "Example (iOS)"
+               BlueprintName = "ExampleSwift (watchOS)"
                ReferencedContainer = "container:Rust.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092D922093E528009F47D8"
+            BlueprintIdentifier = "D9092DF22093EB15009F47D8"
             BuildableName = "Example.framework"
-            BlueprintName = "Example (iOS)"
+            BlueprintName = "ExampleSwift (watchOS)"
             ReferencedContainer = "container:Rust.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092D922093E528009F47D8"
+            BlueprintIdentifier = "D9092DF22093EB15009F47D8"
             BuildableName = "Example.framework"
-            BlueprintName = "Example (iOS)"
+            BlueprintName = "ExampleSwift (watchOS)"
             ReferencedContainer = "container:Rust.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -1,5 +1,5 @@
 //
-//  Example.h
+//  ExampleSwift.h
 //  Example
 //
 //  Created by Chris Ballinger on 4/27/18.

@@ -49,7 +49,7 @@ The src folder contains all of our Rust library source code (`.rs`) and a manual
 This framework is a lightweight wrapper that simply includes the `libexample.a` library and `example.h` header. 
 
 
-#### `Example.framework`
+#### `ExampleSwift.framework`
 
 This framework builds a higher level Swift API on top of `ExampleCore.framework`.
 
