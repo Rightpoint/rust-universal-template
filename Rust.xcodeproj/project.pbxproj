@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D9092D292093D3A3009F47D8 /* ExampleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9092D342093D447009F47D8 /* message.rs in Resources */ = {isa = PBXBuildFile; fileRef = D9092D302093D447009F47D8 /* message.rs */; };
-		D9092D352093D447009F47D8 /* lib.rs in Resources */ = {isa = PBXBuildFile; fileRef = D9092D312093D447009F47D8 /* lib.rs */; };
-		D9092D372093D447009F47D8 /* string.rs in Resources */ = {isa = PBXBuildFile; fileRef = D9092D332093D447009F47D8 /* string.rs */; };
 		D9092D3A2093D755009F47D8 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D392093D755009F47D8 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D492093D7AA009F47D8 /* Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D402093D7A9009F47D8 /* Example.framework */; };
 		D9092D4E2093D7AA009F47D8 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */; };
@@ -35,6 +32,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D9092D232093D3A3009F47D8;
 			remoteInfo = ExampleCore;
+		};
+		D9092D762093E200009F47D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9092D192093D339009F47D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9092D722093E0B7009F47D8;
+			remoteInfo = "Rust (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -193,6 +197,23 @@
 		};
 /* End PBXHeadersBuildPhase section */
 
+/* Begin PBXLegacyTarget section */
+		D9092D722093E0B7009F47D8 /* Rust (macOS) */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "build --release";
+			buildConfigurationList = D9092D732093E0B7009F47D8 /* Build configuration list for PBXLegacyTarget "Rust (macOS)" */;
+			buildPhases = (
+			);
+			buildToolPath = $HOME/.cargo/bin/cargo;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "Rust (macOS)";
+			passBuildSettingsInEnvironment = 0;
+			productName = Rust;
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
 		D9092D232093D3A3009F47D8 /* ExampleCore */ = {
 			isa = PBXNativeTarget;
@@ -206,6 +227,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D9092D772093E200009F47D8 /* PBXTargetDependency */,
 			);
 			name = ExampleCore;
 			productName = ExampleCore;
@@ -268,6 +290,9 @@
 					D9092D472093D7AA009F47D8 = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					D9092D722093E0B7009F47D8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 				};
 			};
 			buildConfigurationList = D9092D1C2093D339009F47D8 /* Build configuration list for PBXProject "Rust" */;
@@ -285,6 +310,7 @@
 				D9092D232093D3A3009F47D8 /* ExampleCore */,
 				D9092D3F2093D7A9009F47D8 /* Example */,
 				D9092D472093D7AA009F47D8 /* ExampleTests */,
+				D9092D722093E0B7009F47D8 /* Rust (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -294,9 +320,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092D352093D447009F47D8 /* lib.rs in Resources */,
-				D9092D372093D447009F47D8 /* string.rs in Resources */,
-				D9092D342093D447009F47D8 /* message.rs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +376,11 @@
 			isa = PBXTargetDependency;
 			target = D9092D232093D3A3009F47D8 /* ExampleCore */;
 			targetProxy = D9092D592093D804009F47D8 /* PBXContainerItemProxy */;
+		};
+		D9092D772093E200009F47D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9092D722093E0B7009F47D8 /* Rust (macOS) */;
+			targetProxy = D9092D762093E200009F47D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -830,6 +858,119 @@
 			};
 			name = Release;
 		};
+		D9092D742093E0B7009F47D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9092D752093E0B7009F47D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -865,6 +1006,15 @@
 			buildConfigurations = (
 				D9092D552093D7AA009F47D8 /* Debug */,
 				D9092D562093D7AA009F47D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9092D732093E0B7009F47D8 /* Build configuration list for PBXLegacyTarget "Rust (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9092D742093E0B7009F47D8 /* Debug */,
+				D9092D752093E0B7009F47D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
