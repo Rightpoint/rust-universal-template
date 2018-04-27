@@ -37,7 +37,27 @@ VS Code offers an IDE-like experiene for developing your Rust code, including so
   * [rls-vscode](https://github.com/rust-lang-nursery/rls-vscode) (code completion)
   * [vscode-lldb](https://github.com/vadimcn/vscode-lldb) (debugging)
 
+### Structure
+
+#### `src/`
+
+The src folder contains all of our Rust library source code (`.rs`) and a manually created C header file (`example.h`) exporting a few symbols of interest from our Rust code. The build output is a static library called `libexample.a`.
+
+
+#### `ExampleCore.framework`
+
+This framework is a lightweight wrapper that simply includes the `libexample.a` library and `example.h` header. 
+
+
+#### `Example.framework`
+
+This framework builds a higher level Swift API on top of `ExampleCore.framework`.
+
 ### Reference
 
 * [cargo-lipo](https://github.com/TimNN/cargo-lipo) - Cargo subcommand to automatically create universal libraries for iOS.
 * [rust-to-ios](https://github.com/wojteklu/rust-to-ios) - Example project for building a library for iOS in Rust.
+
+### License
+
+MIT
