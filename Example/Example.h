@@ -5,7 +5,7 @@
 //  Created by Chris Ballinger on 4/27/18.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Example.
 FOUNDATION_EXPORT double ExampleVersionNumber;

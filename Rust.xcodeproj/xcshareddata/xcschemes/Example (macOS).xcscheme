@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9092D472093D7AA009F47D8"
-               BuildableName = "ExampleTests.xctest"
-               BlueprintName = "ExampleTests"
+               BlueprintIdentifier = "D9092D3F2093D7A9009F47D8"
+               BuildableName = "Example.framework"
+               BlueprintName = "Example (macOS)"
                ReferencedContainer = "container:Rust.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,11 +34,20 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D9092D472093D7AA009F47D8"
                BuildableName = "ExampleTests.xctest"
-               BlueprintName = "ExampleTests"
+               BlueprintName = "ExampleTests (macOS)"
                ReferencedContainer = "container:Rust.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D9092D3F2093D7A9009F47D8"
+            BuildableName = "Example.framework"
+            BlueprintName = "Example (macOS)"
+            ReferencedContainer = "container:Rust.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -55,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092D472093D7AA009F47D8"
-            BuildableName = "ExampleTests.xctest"
-            BlueprintName = "ExampleTests"
+            BlueprintIdentifier = "D9092D3F2093D7A9009F47D8"
+            BuildableName = "Example.framework"
+            BlueprintName = "Example (macOS)"
             ReferencedContainer = "container:Rust.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -73,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092D472093D7AA009F47D8"
-            BuildableName = "ExampleTests.xctest"
-            BlueprintName = "ExampleTests"
+            BlueprintIdentifier = "D9092D3F2093D7A9009F47D8"
+            BuildableName = "Example.framework"
+            BlueprintName = "Example (macOS)"
             ReferencedContainer = "container:Rust.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

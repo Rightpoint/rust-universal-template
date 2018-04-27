@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9092D232093D3A3009F47D8"
-               BuildableName = "ExampleCore.framework"
-               BlueprintName = "ExampleCore"
+               BlueprintIdentifier = "D9092DB12093E629009F47D8"
+               BuildableName = "ExampleTests.xctest"
+               BlueprintName = "ExampleTests (iOS)"
                ReferencedContainer = "container:Rust.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D9092DB12093E629009F47D8"
+               BuildableName = "ExampleTests.xctest"
+               BlueprintName = "ExampleTests (iOS)"
+               ReferencedContainer = "container:Rust.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -45,9 +55,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092D232093D3A3009F47D8"
-            BuildableName = "ExampleCore.framework"
-            BlueprintName = "ExampleCore"
+            BlueprintIdentifier = "D9092DB12093E629009F47D8"
+            BuildableName = "ExampleTests.xctest"
+            BlueprintName = "ExampleTests (iOS)"
             ReferencedContainer = "container:Rust.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +73,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092D232093D3A3009F47D8"
-            BuildableName = "ExampleCore.framework"
-            BlueprintName = "ExampleCore"
+            BlueprintIdentifier = "D9092DB12093E629009F47D8"
+            BuildableName = "ExampleTests.xctest"
+            BlueprintName = "ExampleTests (iOS)"
             ReferencedContainer = "container:Rust.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
