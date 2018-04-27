@@ -10,10 +10,10 @@
 
 /// This file is needed to prevent the linker
 /// from stripping the symbols from the libexample.a library
-@interface ExampleCoreEmpty: NSObject
+@interface _ExampleCoreEmpty: NSObject
 @end
-@implementation ExampleCoreEmpty
-- (void) empty {
+@implementation _ExampleCoreEmpty
+- (void) _empty {
     message_new("");
     @throw NSInternalInconsistencyException;
 }
