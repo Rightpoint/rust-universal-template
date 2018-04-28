@@ -1,6 +1,6 @@
 # Rust Framework Template
 
-Template for creating cross-platform Rust libraries as iOS/macOS/tvOS/watchOS frameworks.
+Template for creating cross-platform Rust libraries as iOS/macOS/tvOS/watchOS Swift frameworks.
 
 ### Setup
 
@@ -57,6 +57,7 @@ This framework builds a higher level Swift API on top of `ExampleCore.framework`
 
 * [cargo-lipo](https://github.com/TimNN/cargo-lipo) - Cargo subcommand to automatically create universal libraries for iOS.
 * [rust-to-ios](https://github.com/wojteklu/rust-to-ios) - Example project for building a library for iOS in Rust.
+* [rust-ios-android](https://github.com/kennytm/rust-ios-android) - Example project for building Rust library for iOS and Android
 
 ### License
 
