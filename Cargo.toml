@@ -6,6 +6,8 @@ authors = ["Chris Ballinger <chrisballinger@gmail.com>"]
 [lib]
 name = "example"
 crate-type = ["staticlib"]
+path = "Source/Rust/lib.rs"
+
 
 [profile.release]
 debug = true

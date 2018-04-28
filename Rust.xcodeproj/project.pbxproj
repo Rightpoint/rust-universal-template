@@ -253,11 +253,9 @@
 		D9092D182093D339009F47D8 = {
 			isa = PBXGroup;
 			children = (
+				D92AD2BF2093F02400E197E8 /* Source */,
 				D9092D5E2093D98B009F47D8 /* rust-libs */,
-				D9092D2F2093D447009F47D8 /* src */,
-				D9092D262093D3A3009F47D8 /* ExampleCore */,
-				D9092D412093D7AA009F47D8 /* ExampleSwift */,
-				D9092D4C2093D7AA009F47D8 /* ExampleTests */,
+				D9092D4C2093D7AA009F47D8 /* Tests */,
 				D9092D252093D3A3009F47D8 /* Products */,
 				D9092D5B2093D808009F47D8 /* Frameworks */,
 			);
@@ -291,17 +289,6 @@
 			path = ExampleCore;
 			sourceTree = "<group>";
 		};
-		D9092D2F2093D447009F47D8 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				D9092D392093D755009F47D8 /* example.h */,
-				D9092D302093D447009F47D8 /* message.rs */,
-				D9092D312093D447009F47D8 /* lib.rs */,
-				D9092D332093D447009F47D8 /* string.rs */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
 		D9092D412093D7AA009F47D8 /* ExampleSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,13 +299,13 @@
 			path = ExampleSwift;
 			sourceTree = "<group>";
 		};
-		D9092D4C2093D7AA009F47D8 /* ExampleTests */ = {
+		D9092D4C2093D7AA009F47D8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */,
 				D9092D4F2093D7AA009F47D8 /* Info.plist */,
 			);
-			path = ExampleTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		D9092D5B2093D808009F47D8 /* Frameworks */ = {
@@ -352,6 +339,27 @@
 				D9092D8E2093E4E6009F47D8 /* libexample.a */,
 			);
 			name = ios;
+			sourceTree = "<group>";
+		};
+		D92AD2BF2093F02400E197E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D9092D412093D7AA009F47D8 /* ExampleSwift */,
+				D9092D262093D3A3009F47D8 /* ExampleCore */,
+				D92AD2C02093F02400E197E8 /* Rust */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D92AD2C02093F02400E197E8 /* Rust */ = {
+			isa = PBXGroup;
+			children = (
+				D9092D392093D755009F47D8 /* example.h */,
+				D9092D302093D447009F47D8 /* message.rs */,
+				D9092D312093D447009F47D8 /* lib.rs */,
+				D9092D332093D447009F47D8 /* string.rs */,
+			);
+			path = Rust;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1029,7 +1037,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
-				INFOPLIST_FILE = ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1040,7 +1048,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/target/release",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.ExampleCore;
@@ -1105,7 +1112,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
-				INFOPLIST_FILE = ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1116,7 +1123,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/target/release",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.ExampleCore;
 				PRODUCT_NAME = ExampleCore;
@@ -1185,7 +1191,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleSwift/Info.plist;
+				INFOPLIST_FILE = Source/ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1197,7 +1203,6 @@
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -1264,7 +1269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleSwift/Info.plist;
+				INFOPLIST_FILE = Source/ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1276,7 +1281,6 @@
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
 				PRODUCT_NAME = ExampleSwift;
@@ -1343,7 +1347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1407,7 +1411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1708,7 +1712,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
-				INFOPLIST_FILE = ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1719,7 +1723,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/target/universal/release",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.ExampleCore;
@@ -1784,7 +1787,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
-				INFOPLIST_FILE = ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1795,7 +1798,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/target/universal/release",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.ExampleCore;
 				PRODUCT_NAME = ExampleCore;
@@ -1864,7 +1866,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleSwift/Info.plist;
+				INFOPLIST_FILE = Source/ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1876,7 +1878,6 @@
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -1943,7 +1944,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleSwift/Info.plist;
+				INFOPLIST_FILE = Source/ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1955,7 +1956,6 @@
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
 				PRODUCT_NAME = ExampleSwift;
@@ -2020,7 +2020,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2083,7 +2083,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2160,7 +2160,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
-				INFOPLIST_FILE = ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2235,7 +2235,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
-				INFOPLIST_FILE = ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2315,7 +2315,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
-				INFOPLIST_FILE = ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2390,7 +2390,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
-				INFOPLIST_FILE = ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2462,7 +2462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2525,7 +2525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2601,7 +2601,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleSwift/Info.plist;
+				INFOPLIST_FILE = Source/ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2613,7 +2613,6 @@
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -2680,7 +2679,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleSwift/Info.plist;
+				INFOPLIST_FILE = Source/ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2692,7 +2691,6 @@
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
 				PRODUCT_NAME = ExampleSwift;
@@ -2764,7 +2762,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleSwift/Info.plist;
+				INFOPLIST_FILE = Source/ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2776,7 +2774,6 @@
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -2843,7 +2840,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleSwift/Info.plist;
+				INFOPLIST_FILE = Source/ExampleSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2855,7 +2852,6 @@
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
 					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
 				PRODUCT_NAME = ExampleSwift;

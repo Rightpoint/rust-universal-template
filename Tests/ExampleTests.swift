@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Example
+@testable import ExampleSwift
 
 class ExampleTests: XCTestCase {
     
