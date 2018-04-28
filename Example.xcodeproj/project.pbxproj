@@ -703,7 +703,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D9092D1C2093D339009F47D8 /* Build configuration list for PBXProject "Rust" */;
+			buildConfigurationList = D9092D1C2093D339009F47D8 /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -965,6 +965,7 @@
 		D9092D1D2093D339009F47D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 			};
@@ -973,6 +974,7 @@
 		D9092D1E2093D339009F47D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 			};
@@ -1198,11 +1200,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
-				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -1275,11 +1272,6 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -1873,11 +1865,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
-				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -1950,11 +1937,6 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -2608,11 +2590,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
-				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -2685,11 +2662,6 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -2769,11 +2741,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
-				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -2847,11 +2814,6 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/release",
-					"$(PROJECT_DIR)/target/x86_64-apple-ios/debug",
-				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
 				PRODUCT_NAME = ExampleSwift;
@@ -2868,7 +2830,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D9092D1C2093D339009F47D8 /* Build configuration list for PBXProject "Rust" */ = {
+		D9092D1C2093D339009F47D8 /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9092D1D2093D339009F47D8 /* Debug */,

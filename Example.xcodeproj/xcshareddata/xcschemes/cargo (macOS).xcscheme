@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9092D782093E430009F47D8"
-               BuildableName = "cargo (iOS)"
-               BlueprintName = "cargo (iOS)"
-               ReferencedContainer = "container:Rust.xcodeproj">
+               BlueprintIdentifier = "D9092D722093E0B7009F47D8"
+               BuildableName = "cargo (macOS)"
+               BlueprintName = "cargo (macOS)"
+               ReferencedContainer = "container:Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092D782093E430009F47D8"
-            BuildableName = "cargo (iOS)"
-            BlueprintName = "cargo (iOS)"
-            ReferencedContainer = "container:Rust.xcodeproj">
+            BlueprintIdentifier = "D9092D722093E0B7009F47D8"
+            BuildableName = "cargo (macOS)"
+            BlueprintName = "cargo (macOS)"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092D782093E430009F47D8"
-            BuildableName = "cargo (iOS)"
-            BlueprintName = "cargo (iOS)"
-            ReferencedContainer = "container:Rust.xcodeproj">
+            BlueprintIdentifier = "D9092D722093E0B7009F47D8"
+            BuildableName = "cargo (macOS)"
+            BlueprintName = "cargo (macOS)"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

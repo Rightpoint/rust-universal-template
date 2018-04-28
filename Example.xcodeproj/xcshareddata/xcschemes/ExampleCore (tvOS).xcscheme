@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D9092DD42093EA32009F47D8"
                BuildableName = "ExampleCore.framework"
                BlueprintName = "ExampleCore (tvOS)"
-               ReferencedContainer = "container:Rust.xcodeproj">
+               ReferencedContainer = "container:Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "D9092DD42093EA32009F47D8"
             BuildableName = "ExampleCore.framework"
             BlueprintName = "ExampleCore (tvOS)"
-            ReferencedContainer = "container:Rust.xcodeproj">
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "D9092DD42093EA32009F47D8"
             BuildableName = "ExampleCore.framework"
             BlueprintName = "ExampleCore (tvOS)"
-            ReferencedContainer = "container:Rust.xcodeproj">
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

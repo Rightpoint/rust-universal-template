@@ -14,10 +14,10 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9092DE52093EAAA009F47D8"
+               BlueprintIdentifier = "D9092D472093D7AA009F47D8"
                BuildableName = "ExampleTests.xctest"
-               BlueprintName = "ExampleTests (tvOS)"
-               ReferencedContainer = "container:Rust.xcodeproj">
+               BlueprintName = "ExampleTests (macOS)"
+               ReferencedContainer = "container:Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9092DE52093EAAA009F47D8"
+               BlueprintIdentifier = "D9092D472093D7AA009F47D8"
                BuildableName = "ExampleTests.xctest"
-               BlueprintName = "ExampleTests (tvOS)"
-               ReferencedContainer = "container:Rust.xcodeproj">
+               BlueprintName = "ExampleTests (macOS)"
+               ReferencedContainer = "container:Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,10 +55,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092DE52093EAAA009F47D8"
+            BlueprintIdentifier = "D9092D472093D7AA009F47D8"
             BuildableName = "ExampleTests.xctest"
-            BlueprintName = "ExampleTests (tvOS)"
-            ReferencedContainer = "container:Rust.xcodeproj">
+            BlueprintName = "ExampleTests (macOS)"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -73,10 +73,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9092DE52093EAAA009F47D8"
+            BlueprintIdentifier = "D9092D472093D7AA009F47D8"
             BuildableName = "ExampleTests.xctest"
-            BlueprintName = "ExampleTests (tvOS)"
-            ReferencedContainer = "container:Rust.xcodeproj">
+            BlueprintName = "ExampleTests (macOS)"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
