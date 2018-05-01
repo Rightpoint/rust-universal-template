@@ -53,6 +53,26 @@ Install `cargo-lipo` for generating universal iOS libraries:
 $ cargo install cargo-lipo
 ```
 
+#### Android
+
+Install [Android NDK](https://developer.android.com/ndk/):
+
+```
+$ brew cask install android-ndk
+```
+
+Add `ANDROID_NDK_HOME` to your bash profile (e.g. `~/.profile`):
+
+```bash
+export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
+```
+
+Install Android Rust targets:
+
+```
+$ rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android
+```
+
 #### Install Visual Studio Code (optional)
 
 VS Code offers an IDE-like experiene for developing your Rust code, including some rough LLDB debugging support.
@@ -81,6 +101,7 @@ This iOS/macOS framework builds a higher level Swift API on top of `ExampleCore.
 * [cargo-lipo](https://github.com/TimNN/cargo-lipo) - Cargo subcommand to automatically create universal libraries for iOS.
 * [rust-to-ios](https://github.com/wojteklu/rust-to-ios) - Example project for building a library for iOS in Rust.
 * [rust-ios-android](https://github.com/kennytm/rust-ios-android) - Example project for building Rust library for iOS and Android
+* [rust_on_mobile](https://github.com/Geal/rust_on_mobile) - iOS and Android examples
 * [cbindgen](https://github.com/eqrion/cbindgen/) - A project for generating C bindings from Rust code
 * [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Interoperating JavaScript and Rust
 * [rust-bindgen](https://github.com/rust-lang-nursery/rust-bindgen) - Automatically generates Rust FFI bindings to C (and some C++) libraries
