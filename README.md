@@ -26,17 +26,16 @@ Template for creating universal Rust libraries with bindings to iOS/macOS (Swift
 
 ### Setup
 
-Install Rust via Rustup:
+Install Rust via [Rustup](https://rustup.rs/):
 
 ```bash
 $ curl https://sh.rustup.rs -sSf | sh
 ```
 
-If you want Bitcode support you'll need to use a Rust nightly 1.2.7+ build (as of 4-27-2018):
+Make sure the Rust binaries are added to your `PATH` (e.g. inside `~/.profile`). This is usually performed automatically for you by `rustup`.
 
 ```bash
-$ rustup toolchain install nightly
-$ rustup default nightly
+export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
 #### iOS
@@ -44,13 +43,21 @@ $ rustup default nightly
 Install the iOS targets for your selected toolchain:
 
 ```bash
-$ rustup target add aarch64-apple-ios armv7-apple-ios armv7s-apple-ios  x86_64-apple-ios i386-apple-ios
+$ rustup target add aarch64-apple-ios armv7-apple-ios armv7s-apple-ios x86_64-apple-ios i386-apple-ios
 ```
 
 Install `cargo-lipo` for generating universal iOS libraries:
 
 ```bash
 $ cargo install cargo-lipo
+```
+
+If you want Bitcode support you'll need to use a Rust nightly 1.2.7+ build (as of 4-27-2018):
+
+```bash
+$ rustup toolchain install nightly
+$ rustup target add aarch64-apple-ios armv7-apple-ios armv7s-apple-ios x86_64-apple-ios i386-apple-ios --toolchain nightly
+$ rustup default nightly
 ```
 
 #### Android
