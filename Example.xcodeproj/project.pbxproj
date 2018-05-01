@@ -44,6 +44,7 @@
 		D9092E052093EB74009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
 		D9092E072093EB74009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
 		D9092E092093EB74009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6CB232098EE7E00A5C132 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A6CB222098EE7D00A5C132 /* libresolv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,7 @@
 		D9092DF02093EAAA009F47D8 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092DFF2093EB15009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092E0E2093EB74009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A6CB222098EE7D00A5C132 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A6CB232098EE7E00A5C132 /* libresolv.tbd in Frameworks */,
 				D9092D6D2093DB80009F47D8 /* libexample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +314,7 @@
 		D9092D5B2093D808009F47D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9A6CB222098EE7D00A5C132 /* libresolv.tbd */,
 				D9092DC12093E852009F47D8 /* libresolv.tbd */,
 			);
 			name = Frameworks;
@@ -965,7 +969,6 @@
 		D9092D1D2093D339009F47D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_BITCODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 			};
@@ -974,7 +977,6 @@
 		D9092D1E2093D339009F47D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_BITCODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 			};
