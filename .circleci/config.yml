@@ -139,7 +139,7 @@ jobs:
       - save_cache:
           key: mac-cargo-v2-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
           paths:
-            - /Users/distiller/.profile
+            - /Users/distiller/.bash_profile
             - /Users/distiller/.cargo
   test-xcode-9-3:
     macos:
