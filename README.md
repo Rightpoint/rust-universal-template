@@ -1,5 +1,7 @@
 # Rust Universal Template
 
+[![CircleCI](https://img.shields.io/circleci/project/github/Raizlabs/rust-universal-template/master.svg)](https://circleci.com/gh/Raizlabs/rust-universal-template)
+
 Template for creating universal Rust libraries with bindings to iOS/macOS (Swift), Android (Java/JNI), JavaScript (WebAssembly), and more.
 
 ### Goals
