@@ -43,7 +43,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 Install the iOS targets for your selected toolchain:
 
 ```bash
-$ rustup target add aarch64-apple-ios armv7-apple-ios armv7s-apple-ios x86_64-apple-ios i386-apple-ios
+$ rustup target add aarch64-apple-ios armv7-apple-ios x86_64-apple-ios i386-apple-ios
 ```
 
 Install `cargo-lipo` for generating universal iOS libraries:
@@ -56,7 +56,7 @@ If you want Bitcode support you'll need to use a Rust nightly 1.2.7+ build (as o
 
 ```bash
 $ rustup toolchain install nightly
-$ rustup target add aarch64-apple-ios armv7-apple-ios armv7s-apple-ios x86_64-apple-ios i386-apple-ios --toolchain nightly
+$ rustup target add aarch64-apple-ios armv7-apple-ios x86_64-apple-ios i386-apple-ios --toolchain nightly
 $ rustup default nightly
 ```
 
