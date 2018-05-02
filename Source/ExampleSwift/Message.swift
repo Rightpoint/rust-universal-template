@@ -19,9 +19,9 @@ public class Message {
         message_destroy(raw)
     }
     
-    public var name: String {
+    public var name: String? {
         let byteSlice = message_get_text(raw)
-        return byteSlice.toString()!
+        return byteSlice.toString()
     }
 }
 

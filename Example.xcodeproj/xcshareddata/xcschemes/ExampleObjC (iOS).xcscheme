@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D9092D7C2093E464009F47D8"
                BuildableName = "ExampleCore.framework"
-               BlueprintName = "ExampleCore (iOS)"
+               BlueprintName = "ExampleObjC (iOS)"
                ReferencedContainer = "container:Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9092D7C2093E464009F47D8"
             BuildableName = "ExampleCore.framework"
-            BlueprintName = "ExampleCore (iOS)"
+            BlueprintName = "ExampleObjC (iOS)"
             ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D9092D7C2093E464009F47D8"
             BuildableName = "ExampleCore.framework"
-            BlueprintName = "ExampleCore (iOS)"
+            BlueprintName = "ExampleObjC (iOS)"
             ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

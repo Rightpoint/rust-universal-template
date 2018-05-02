@@ -7,6 +7,7 @@
 
 import XCTest
 @testable import ExampleSwift
+@testable import ExampleObjC
 
 class ExampleTests: XCTestCase {
     
@@ -20,11 +21,17 @@ class ExampleTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testExampleSwift() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let text = "asdf"
         let message = Message(text: text)
+        XCTAssertEqual(text, message.name)
+    }
+
+    func testExampleObjC() {
+        let text = "asdf"
+        let message = RSTMessage(text: text)
         XCTAssertEqual(text, message.name)
     }
 }

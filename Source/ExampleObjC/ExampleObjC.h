@@ -13,4 +13,4 @@ FOUNDATION_EXPORT double ExampleCoreVersionNumber;
 //! Project version string for ExampleCore.
 FOUNDATION_EXPORT const unsigned char ExampleCoreVersionString[];
 
-#import "example.h"
+#import "RSTMessage.h"

@@ -7,17 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9092D292093D3A3009F47D8 /* ExampleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9092D292093D3A3009F47D8 /* ExampleObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D492093D7AA009F47D8 /* ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D402093D7A9009F47D8 /* ExampleSwift.framework */; };
 		D9092D4E2093D7AA009F47D8 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */; };
 		D9092D502093D7AA009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D582093D7F6009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
-		D9092D5C2093D808009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
-		D9092D712093DD4A009F47D8 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = D9092D702093DD4A009F47D8 /* empty.m */; };
-		D9092D802093E464009F47D8 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = D9092D702093DD4A009F47D8 /* empty.m */; };
-		D9092D842093E464009F47D8 /* ExampleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9092D842093E464009F47D8 /* ExampleObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D962093E528009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
-		D9092D982093E528009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
 		D9092D9A2093E528009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092DB72093E629009F47D8 /* ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D9F2093E528009F47D8 /* ExampleSwift.framework */; };
 		D9092DBF2093E729009F47D8 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */; };
@@ -28,8 +24,15 @@
 		D9A6CC382099408900A5C132 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A6CC362099403800A5C132 /* libexample.a */; };
 		D9A6CC392099414800A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9A6CC3A2099414800A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9A6CC452099426100A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9A6CC462099426100A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6CC452099426100A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9A6CC462099426100A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9E68900209A540A008AAF78 /* ExampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleObjC.framework */; };
+		D9E68905209A5421008AAF78 /* ExampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D8A2093E464009F47D8 /* ExampleObjC.framework */; };
+		D9E68908209A5495008AAF78 /* RSTMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E68906209A5495008AAF78 /* RSTMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E68909209A5495008AAF78 /* RSTMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E68906209A5495008AAF78 /* RSTMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E6890A209A5495008AAF78 /* RSTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E68907209A5495008AAF78 /* RSTMessage.m */; };
+		D9E6890B209A5495008AAF78 /* RSTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E68907209A5495008AAF78 /* RSTMessage.m */; };
+		D9E6890D209A5A0F008AAF78 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D8E2093E4E6009F47D8 /* libexample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,11 +78,25 @@
 			remoteGlobalIDString = D9092D782093E430009F47D8;
 			remoteInfo = "cargo (iOS)";
 		};
+		D9E688FE209A5402008AAF78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9092D192093D339009F47D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9092D232093D3A3009F47D8;
+			remoteInfo = "ExampleObjC (macOS)";
+		};
+		D9E68903209A541C008AAF78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9092D192093D339009F47D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9092D7C2093E464009F47D8;
+			remoteInfo = "ExampleObjC (iOS)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D9092D242093D3A3009F47D8 /* ExampleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9092D272093D3A3009F47D8 /* ExampleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleCore.h; sourceTree = "<group>"; };
+		D9092D242093D3A3009F47D8 /* ExampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9092D272093D3A3009F47D8 /* ExampleObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleObjC.h; sourceTree = "<group>"; };
 		D9092D282093D3A3009F47D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9092D402093D7A9009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092D422093D7AA009F47D8 /* ExampleSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleSwift.h; sourceTree = "<group>"; };
@@ -88,8 +105,7 @@
 		D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		D9092D4F2093D7AA009F47D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9092D572093D7F6009F47D8 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		D9092D702093DD4A009F47D8 /* empty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
-		D9092D8A2093E464009F47D8 /* ExampleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9092D8A2093E464009F47D8 /* ExampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092D8E2093E4E6009F47D8 /* libexample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexample.a; path = target/universal/release/libexample.a; sourceTree = "<group>"; };
 		D9092D9F2093E528009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092DB22093E629009F47D8 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +124,8 @@
 		D9A6CC29209937C900A5C132 /* lib.rs */ = {isa = PBXFileReference; lastKnownFileType = text; path = lib.rs; sourceTree = "<group>"; };
 		D9A6CC2A209937C900A5C132 /* string.rs */ = {isa = PBXFileReference; lastKnownFileType = text; path = string.rs; sourceTree = "<group>"; };
 		D9A6CC362099403800A5C132 /* libexample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexample.a; path = target/release/libexample.a; sourceTree = "<group>"; };
+		D9E68906209A5495008AAF78 /* RSTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTMessage.h; sourceTree = "<group>"; };
+		D9E68907209A5495008AAF78 /* RSTMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A6CC382099408900A5C132 /* libexample.a in Frameworks */,
-				D9092D5C2093D808009F47D8 /* ExampleCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E68900209A540A008AAF78 /* ExampleObjC.framework in Frameworks */,
 				D9092D492093D7AA009F47D8 /* ExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092D982093E528009F47D8 /* ExampleCore.framework in Frameworks */,
+				D9E6890D209A5A0F008AAF78 /* libexample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E68905209A5421008AAF78 /* ExampleObjC.framework in Frameworks */,
 				D9092DB72093E629009F47D8 /* ExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,24 +198,25 @@
 		D9092D252093D3A3009F47D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9092D242093D3A3009F47D8 /* ExampleCore.framework */,
+				D9092D242093D3A3009F47D8 /* ExampleObjC.framework */,
 				D9092D402093D7A9009F47D8 /* ExampleSwift.framework */,
 				D9092D482093D7AA009F47D8 /* ExampleTests.xctest */,
-				D9092D8A2093E464009F47D8 /* ExampleCore.framework */,
+				D9092D8A2093E464009F47D8 /* ExampleObjC.framework */,
 				D9092D9F2093E528009F47D8 /* ExampleSwift.framework */,
 				D9092DB22093E629009F47D8 /* ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D9092D262093D3A3009F47D8 /* ExampleCore */ = {
+		D9092D262093D3A3009F47D8 /* ExampleObjC */ = {
 			isa = PBXGroup;
 			children = (
-				D9092D702093DD4A009F47D8 /* empty.m */,
-				D9092D272093D3A3009F47D8 /* ExampleCore.h */,
+				D9E68906209A5495008AAF78 /* RSTMessage.h */,
+				D9E68907209A5495008AAF78 /* RSTMessage.m */,
+				D9092D272093D3A3009F47D8 /* ExampleObjC.h */,
 				D9092D282093D3A3009F47D8 /* Info.plist */,
 			);
-			path = ExampleCore;
+			path = ExampleObjC;
 			sourceTree = "<group>";
 		};
 		D9092D412093D7AA009F47D8 /* ExampleSwift */ = {
@@ -257,7 +277,7 @@
 			children = (
 				D9A6CB24209937C900A5C132 /* Rust */,
 				D9092D412093D7AA009F47D8 /* ExampleSwift */,
-				D9092D262093D3A3009F47D8 /* ExampleCore */,
+				D9092D262093D3A3009F47D8 /* ExampleObjC */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -344,8 +364,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092D292093D3A3009F47D8 /* ExampleCore.h in Headers */,
+				D9092D292093D3A3009F47D8 /* ExampleObjC.h in Headers */,
 				D9A6CC452099426100A5C132 /* example.h in Headers */,
+				D9E68908209A5495008AAF78 /* RSTMessage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,8 +383,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092D842093E464009F47D8 /* ExampleCore.h in Headers */,
+				D9092D842093E464009F47D8 /* ExampleObjC.h in Headers */,
 				D9A6CC462099426100A5C132 /* example.h in Headers */,
+				D9E68909209A5495008AAF78 /* RSTMessage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +432,9 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		D9092D232093D3A3009F47D8 /* ExampleCore (macOS) */ = {
+		D9092D232093D3A3009F47D8 /* ExampleObjC (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9092D2C2093D3A3009F47D8 /* Build configuration list for PBXNativeTarget "ExampleCore (macOS)" */;
+			buildConfigurationList = D9092D2C2093D3A3009F47D8 /* Build configuration list for PBXNativeTarget "ExampleObjC (macOS)" */;
 			buildPhases = (
 				D9092D1F2093D3A3009F47D8 /* Sources */,
 				D9092D202093D3A3009F47D8 /* Frameworks */,
@@ -424,9 +446,9 @@
 			dependencies = (
 				D9092D772093E200009F47D8 /* PBXTargetDependency */,
 			);
-			name = "ExampleCore (macOS)";
+			name = "ExampleObjC (macOS)";
 			productName = ExampleCore;
-			productReference = D9092D242093D3A3009F47D8 /* ExampleCore.framework */;
+			productReference = D9092D242093D3A3009F47D8 /* ExampleObjC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D9092D3F2093D7A9009F47D8 /* ExampleSwift (macOS) */ = {
@@ -459,6 +481,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D9E688FF209A5402008AAF78 /* PBXTargetDependency */,
 				D9092D4B2093D7AA009F47D8 /* PBXTargetDependency */,
 			);
 			name = "ExampleTests (macOS)";
@@ -466,9 +489,9 @@
 			productReference = D9092D482093D7AA009F47D8 /* ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D9092D7C2093E464009F47D8 /* ExampleCore (iOS) */ = {
+		D9092D7C2093E464009F47D8 /* ExampleObjC (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9092D872093E464009F47D8 /* Build configuration list for PBXNativeTarget "ExampleCore (iOS)" */;
+			buildConfigurationList = D9092D872093E464009F47D8 /* Build configuration list for PBXNativeTarget "ExampleObjC (iOS)" */;
 			buildPhases = (
 				D9092D7F2093E464009F47D8 /* Sources */,
 				D9092D812093E464009F47D8 /* Frameworks */,
@@ -480,9 +503,9 @@
 			dependencies = (
 				D9092D8D2093E4D4009F47D8 /* PBXTargetDependency */,
 			);
-			name = "ExampleCore (iOS)";
+			name = "ExampleObjC (iOS)";
 			productName = ExampleCore;
-			productReference = D9092D8A2093E464009F47D8 /* ExampleCore.framework */;
+			productReference = D9092D8A2093E464009F47D8 /* ExampleObjC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D9092D922093E528009F47D8 /* ExampleSwift (iOS) */ = {
@@ -515,6 +538,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D9E68904209A541C008AAF78 /* PBXTargetDependency */,
 				D9092DB92093E629009F47D8 /* PBXTargetDependency */,
 			);
 			name = "ExampleTests (iOS)";
@@ -564,8 +588,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9092D232093D3A3009F47D8 /* ExampleCore (macOS) */,
-				D9092D7C2093E464009F47D8 /* ExampleCore (iOS) */,
+				D9092D232093D3A3009F47D8 /* ExampleObjC (macOS) */,
+				D9092D7C2093E464009F47D8 /* ExampleObjC (iOS) */,
 				D9092D3F2093D7A9009F47D8 /* ExampleSwift (macOS) */,
 				D9092D922093E528009F47D8 /* ExampleSwift (iOS) */,
 				D9092D472093D7AA009F47D8 /* ExampleTests (macOS) */,
@@ -626,7 +650,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092D712093DD4A009F47D8 /* empty.m in Sources */,
+				D9E6890A209A5495008AAF78 /* RSTMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +674,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9092D802093E464009F47D8 /* empty.m in Sources */,
+				D9E6890B209A5495008AAF78 /* RSTMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,6 +726,16 @@
 			isa = PBXTargetDependency;
 			target = D9092D782093E430009F47D8 /* cargo (iOS) */;
 			targetProxy = D9A6CC3F209941E000A5C132 /* PBXContainerItemProxy */;
+		};
+		D9E688FF209A5402008AAF78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9092D232093D3A3009F47D8 /* ExampleObjC (macOS) */;
+			targetProxy = D9E688FE209A5402008AAF78 /* PBXContainerItemProxy */;
+		};
+		D9E68904209A541C008AAF78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9092D7C2093E464009F47D8 /* ExampleObjC (iOS) */;
+			targetProxy = D9E68903209A541C008AAF78 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -780,7 +814,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleObjC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -790,11 +824,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/target/release",
+					"$(PROJECT_DIR)/target/universal/release",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.ExampleCore;
-				PRODUCT_NAME = ExampleCore;
+				PRODUCT_NAME = ExampleObjC;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -854,7 +889,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleObjC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -864,10 +899,11 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/target/release",
+					"$(PROJECT_DIR)/target/universal/release",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.ExampleCore;
-				PRODUCT_NAME = ExampleCore;
+				PRODUCT_NAME = ExampleObjC;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1451,7 +1487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleObjC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1465,7 +1501,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.ExampleCore;
-				PRODUCT_NAME = ExampleCore;
+				PRODUCT_NAME = ExampleObjC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1525,7 +1561,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
+				INFOPLIST_FILE = Source/ExampleObjC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1538,7 +1574,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.ExampleCore;
-				PRODUCT_NAME = ExampleCore;
+				PRODUCT_NAME = ExampleObjC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1610,6 +1646,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/target/universal/release",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1683,6 +1723,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/target/universal/release",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -1841,7 +1885,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9092D2C2093D3A3009F47D8 /* Build configuration list for PBXNativeTarget "ExampleCore (macOS)" */ = {
+		D9092D2C2093D3A3009F47D8 /* Build configuration list for PBXNativeTarget "ExampleObjC (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9092D2A2093D3A3009F47D8 /* Debug */,
@@ -1886,7 +1930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9092D872093E464009F47D8 /* Build configuration list for PBXNativeTarget "ExampleCore (iOS)" */ = {
+		D9092D872093E464009F47D8 /* Build configuration list for PBXNativeTarget "ExampleObjC (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D9092D882093E464009F47D8 /* Debug */,

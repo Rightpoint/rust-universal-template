@@ -96,14 +96,13 @@ VS Code offers an IDE-like experiene for developing your Rust code, including so
 
 The src folder contains all of our Rust library source code (`.rs`) and a manually created C header file (`example.h`) exporting a few symbols of interest from our Rust code. The build output is a static library called `libexample.a`.
 
-#### `ExampleCore.framework`
+#### `ExampleObjC.framework`
 
-This iOS/macOS framework is a lightweight wrapper that simply includes the `libexample.a` library and `example.h` header. 
-
+This iOS/macOS framework contains a Objective-C wrapper around the the C interface exposed by `example.h`.
 
 #### `ExampleSwift.framework`
 
-This iOS/macOS framework builds a higher level Swift API on top of `ExampleCore.framework`.
+This iOS/macOS framework contains a Swift wrapper around the the C interface exposed by `example.h`.
 
 ### Reference
 
