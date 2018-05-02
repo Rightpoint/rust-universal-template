@@ -23,7 +23,7 @@ jobs:
           paths:
             - /usr/local/cargo/registry
             - /usr/local/cargo/git
-  cargo_test:
+  test:
     docker:
       - image: rust:latest
     working_directory: /mnt/crate
