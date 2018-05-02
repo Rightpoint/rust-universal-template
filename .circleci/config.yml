@@ -115,8 +115,8 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - mac-cargo-v1-{{ checksum "Cargo.toml" }}-
-            - mac-cargo-v1-
+            - mac-cargo-v2-{{ checksum "Cargo.toml" }}-
+            - mac-cargo-v2-
       - run:
           name: Install Rust
           command: |
@@ -124,7 +124,7 @@ jobs:
       - run:
           name: Install Toolchain and Targets
           command: |
-            cargo install cargo-lipo
+            cargo lipo --version || cargo install cargo-lipo
             rustup target add aarch64-apple-ios armv7-apple-ios x86_64-apple-ios i386-apple-ios 
             rustup toolchain install nightly
             rustup target add aarch64-apple-ios armv7-apple-ios x86_64-apple-ios i386-apple-ios --toolchain nightly
@@ -137,8 +137,9 @@ jobs:
           paths:
             - Cargo.lock
       - save_cache:
-          key: mac-cargo-v1-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
+          key: mac-cargo-v2-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
           paths:
+            - /Users/distiller/.profile
             - /Users/distiller/.cargo
   test-xcode-9-3:
     macos:
@@ -151,7 +152,7 @@ jobs:
           at: "."
       - restore_cache:
           keys:
-            - mac-cargo-v1-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
+            - mac-cargo-v2-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
       - run:
           name: Test macOS
           command: |
