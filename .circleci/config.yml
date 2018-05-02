@@ -105,6 +105,53 @@ jobs:
       - run:
           name: Build and test with nightly Rust
           command: cargo test --verbose --frozen
+
+  macos-rustup:
+    macos:
+      xcode: "9.3.0"
+    shell: /bin/bash --login -eo pipefail
+    working_directory: /Users/distiller/project
+    steps:
+      - checkout
+      - run:
+          name: Install Rust
+          command: |
+            curl https://sh.rustup.rs -sSf | sh -s -- -y
+      - restore_cache:
+          keys:
+            - cargo-v1-{{ checksum "Cargo.toml" }}-
+            - cargo-v1-
+      - run: cargo update
+      - run: cargo fetch
+      - persist_to_workspace:
+          root: "."
+          paths:
+            - Cargo.lock
+      - save_cache:
+          key: cargo-v1-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
+          paths:
+            - /Users/distiller/.cargo
+  test-xcode-9-3:
+    macos:
+      xcode: "9.3.0"
+    shell: /bin/bash --login -eo pipefail
+    working_directory: /Users/distiller/project
+    steps:
+      - checkout
+      - attach_workspace:
+          at: "."
+      - restore_cache:
+          keys:
+            - cargo-v1-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
+      - run:
+          name: Test macOS
+          command: |
+            xcodebuild -project Example.xcodeproj -scheme "ExampleTests (macOS)" clean test | xcpretty -c
+      - run:
+          name: Test iOS
+          command: |
+            xcodebuild -project Example.xcodeproj -scheme "ExampleTests (iOS)" -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' clean test | xcpretty -c
+
   # coverage:
   #   docker:
   #     - image: ragnaroek/kcov:v33
@@ -152,7 +199,13 @@ jobs:
 
 workflows:
   version: 2
-  test_all:
+  test_macos:
+    jobs:
+      - macos-rustup
+      - test-xcode-9-3:
+          requires:
+            - macos-rustup
+  test_linux:
     jobs:
       - cargo_fetch
       - test:
