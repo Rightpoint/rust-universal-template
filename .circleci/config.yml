@@ -70,6 +70,23 @@ jobs:
       - run:
           name: Build and test in release profile
           command: cargo test --verbose --frozen --release
+  build_all_features:
+    docker:
+      - image: rust:latest
+    working_directory: /mnt/crate
+    steps:
+      - checkout
+      - attach_workspace:
+          at: "."
+      - restore_cache:
+          keys:
+            - cargo-v1-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
+      - run:
+          name: Print version information
+          command: rustc --version; cargo --version
+      - run:
+          name: Build all features
+          command: cargo build --verbose --frozen --all-features
   test_nightly:
     docker:
       - image: rustlang/rust:nightly
@@ -141,6 +158,9 @@ workflows:
           requires:
             - cargo_fetch
       - test_release:
+          requires:
+            - cargo_fetch
+      - build_all_features:
           requires:
             - cargo_fetch
       - test_nightly:
