@@ -113,14 +113,14 @@ jobs:
     working_directory: /Users/distiller/project
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - mac-cargo-v1-{{ checksum "Cargo.toml" }}-
+            - mac-cargo-v1-
       - run:
           name: Install Rust
           command: |
-            curl https://sh.rustup.rs -sSf | sh -s -- -y
-      - restore_cache:
-          keys:
-            - cargo-v1-{{ checksum "Cargo.toml" }}-
-            - cargo-v1-
+            cargo --version || curl https://sh.rustup.rs -sSf | sh -s -- -y
       - run: cargo update
       - run: cargo fetch
       - persist_to_workspace:
@@ -128,7 +128,7 @@ jobs:
           paths:
             - Cargo.lock
       - save_cache:
-          key: cargo-v1-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
+          key: mac-cargo-v1-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
           paths:
             - /Users/distiller/.cargo
   test-xcode-9-3:
@@ -142,7 +142,7 @@ jobs:
           at: "."
       - restore_cache:
           keys:
-            - cargo-v1-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
+            - mac-cargo-v1-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
       - run:
           name: Test macOS
           command: |
