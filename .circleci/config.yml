@@ -121,6 +121,15 @@ jobs:
           name: Install Rust
           command: |
             cargo --version || curl https://sh.rustup.rs -sSf | sh -s -- -y
+      - run:
+          name: Install Toolchain and Targets
+          command: |
+            cargo install cargo-lipo
+            rustup target add aarch64-apple-ios armv7-apple-ios x86_64-apple-ios i386-apple-ios 
+            rustup toolchain install nightly
+            rustup target add aarch64-apple-ios armv7-apple-ios x86_64-apple-ios i386-apple-ios --toolchain nightly
+            rustup default nightly
+      - run: rustup 
       - run: cargo update
       - run: cargo fetch
       - persist_to_workspace:
