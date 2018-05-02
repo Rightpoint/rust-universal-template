@@ -8,17 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D9092D292093D3A3009F47D8 /* ExampleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9092D3A2093D755009F47D8 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D392093D755009F47D8 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D492093D7AA009F47D8 /* ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D402093D7A9009F47D8 /* ExampleSwift.framework */; };
 		D9092D4E2093D7AA009F47D8 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */; };
 		D9092D502093D7AA009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D582093D7F6009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
 		D9092D5C2093D808009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
-		D9092D6D2093DB80009F47D8 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D6C2093DB80009F47D8 /* libexample.a */; };
 		D9092D712093DD4A009F47D8 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = D9092D702093DD4A009F47D8 /* empty.m */; };
 		D9092D802093E464009F47D8 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = D9092D702093DD4A009F47D8 /* empty.m */; };
 		D9092D842093E464009F47D8 /* ExampleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9092D852093E464009F47D8 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D392093D755009F47D8 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092D962093E528009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
 		D9092D982093E528009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
 		D9092D9A2093E528009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,12 +27,10 @@
 		D9092DC92093E9B0009F47D8 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092DC12093E852009F47D8 /* libresolv.tbd */; };
 		D9092DCA2093E9B0009F47D8 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D8E2093E4E6009F47D8 /* libexample.a */; };
 		D9092DCC2093E9B0009F47D8 /* ExampleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9092DCD2093E9B0009F47D8 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D392093D755009F47D8 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092DD82093EA32009F47D8 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = D9092D702093DD4A009F47D8 /* empty.m */; };
 		D9092DDA2093EA32009F47D8 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092DC12093E852009F47D8 /* libresolv.tbd */; };
 		D9092DDB2093EA32009F47D8 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D8E2093E4E6009F47D8 /* libexample.a */; };
 		D9092DDD2093EA32009F47D8 /* ExampleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D272093D3A3009F47D8 /* ExampleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9092DDE2093EA32009F47D8 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D392093D755009F47D8 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9092DE92093EAAA009F47D8 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */; };
 		D9092DEB2093EAAA009F47D8 /* ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D9F2093E528009F47D8 /* ExampleSwift.framework */; };
 		D9092DF62093EB15009F47D8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D572093D7F6009F47D8 /* Message.swift */; };
@@ -45,6 +40,16 @@
 		D9092E072093EB74009F47D8 /* ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleCore.framework */; };
 		D9092E092093EB74009F47D8 /* ExampleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D9092D422093D7AA009F47D8 /* ExampleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9A6CB232098EE7E00A5C132 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A6CB222098EE7D00A5C132 /* libresolv.tbd */; };
+		D9A6CC372099403800A5C132 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A6CC362099403800A5C132 /* libexample.a */; };
+		D9A6CC382099408900A5C132 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A6CC362099403800A5C132 /* libexample.a */; };
+		D9A6CC392099414800A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6CC3A2099414800A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6CC3B2099414900A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6CC3C2099414900A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6CC452099426100A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6CC462099426100A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6CC472099426200A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A6CC482099426200A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +59,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D9092D3F2093D7A9009F47D8;
 			remoteInfo = Example;
-		};
-		D9092D592093D804009F47D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9092D192093D339009F47D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9092D232093D3A3009F47D8;
-			remoteInfo = ExampleCore;
 		};
 		D9092D762093E200009F47D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -83,13 +81,6 @@
 			remoteGlobalIDString = D9092D922093E528009F47D8;
 			remoteInfo = "Example (iOS)";
 		};
-		D9092DBD2093E6EE009F47D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9092D192093D339009F47D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9092D7C2093E464009F47D8;
-			remoteInfo = "ExampleCore (iOS)";
-		};
 		D9092DC52093E9B0009F47D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9092D192093D339009F47D8 /* Project object */;
@@ -104,20 +95,6 @@
 			remoteGlobalIDString = D9092D782093E430009F47D8;
 			remoteInfo = "cargo (iOS)";
 		};
-		D9092E102093EC7B009F47D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9092D192093D339009F47D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9092DC32093E9B0009F47D8;
-			remoteInfo = "ExampleCore (watchOS)";
-		};
-		D9092E122093EC83009F47D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D9092D192093D339009F47D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D9092DD42093EA32009F47D8;
-			remoteInfo = "ExampleCore (tvOS)";
-		};
 		D9092E142093EC90009F47D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9092D192093D339009F47D8 /* Project object */;
@@ -125,16 +102,40 @@
 			remoteGlobalIDString = D9092E012093EB74009F47D8;
 			remoteInfo = "Example (tvOS)";
 		};
+		D9A6CC3D209941D900A5C132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9092D192093D339009F47D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9092D722093E0B7009F47D8;
+			remoteInfo = "cargo (macOS)";
+		};
+		D9A6CC3F209941E000A5C132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9092D192093D339009F47D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9092D782093E430009F47D8;
+			remoteInfo = "cargo (iOS)";
+		};
+		D9A6CC41209941E800A5C132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9092D192093D339009F47D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9092D782093E430009F47D8;
+			remoteInfo = "cargo (iOS)";
+		};
+		D9A6CC43209941ED00A5C132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9092D192093D339009F47D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9092D782093E430009F47D8;
+			remoteInfo = "cargo (iOS)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D9092D242093D3A3009F47D8 /* ExampleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092D272093D3A3009F47D8 /* ExampleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleCore.h; sourceTree = "<group>"; };
 		D9092D282093D3A3009F47D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9092D302093D447009F47D8 /* message.rs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = message.rs; sourceTree = "<group>"; };
-		D9092D312093D447009F47D8 /* lib.rs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lib.rs; sourceTree = "<group>"; };
-		D9092D332093D447009F47D8 /* string.rs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = string.rs; sourceTree = "<group>"; };
-		D9092D392093D755009F47D8 /* example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = example.h; sourceTree = "<group>"; };
 		D9092D402093D7A9009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092D422093D7AA009F47D8 /* ExampleSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleSwift.h; sourceTree = "<group>"; };
 		D9092D432093D7AA009F47D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -142,7 +143,6 @@
 		D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		D9092D4F2093D7AA009F47D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9092D572093D7F6009F47D8 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		D9092D6C2093DB80009F47D8 /* libexample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexample.a; path = target/release/libexample.a; sourceTree = "<group>"; };
 		D9092D702093DD4A009F47D8 /* empty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
 		D9092D8A2093E464009F47D8 /* ExampleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092D8E2093E4E6009F47D8 /* libexample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexample.a; path = target/universal/release/libexample.a; sourceTree = "<group>"; };
@@ -155,6 +155,19 @@
 		D9092DFF2093EB15009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9092E0E2093EB74009F47D8 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A6CB222098EE7D00A5C132 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		D9A6CB26209937C900A5C132 /* Cargo.toml */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cargo.toml; sourceTree = "<group>"; };
+		D9A6CBC6209937C900A5C132 /* Cargo.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cargo.lock; sourceTree = "<group>"; };
+		D9A6CBC8209937C900A5C132 /* lib.rs */ = {isa = PBXFileReference; lastKnownFileType = text; path = lib.rs; sourceTree = "<group>"; };
+		D9A6CBCA209937C900A5C132 /* lib.rs */ = {isa = PBXFileReference; lastKnownFileType = text; path = lib.rs; sourceTree = "<group>"; };
+		D9A6CBCC209937C900A5C132 /* Cargo.toml */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cargo.toml; sourceTree = "<group>"; };
+		D9A6CBCE209937C900A5C132 /* lib.rs */ = {isa = PBXFileReference; lastKnownFileType = text; path = lib.rs; sourceTree = "<group>"; };
+		D9A6CBD0209937C900A5C132 /* Cargo.toml */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cargo.toml; sourceTree = "<group>"; };
+		D9A6CC25209937C900A5C132 /* Cargo.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cargo.lock; sourceTree = "<group>"; };
+		D9A6CC27209937C900A5C132 /* message.rs */ = {isa = PBXFileReference; lastKnownFileType = text; path = message.rs; sourceTree = "<group>"; };
+		D9A6CC28209937C900A5C132 /* example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = example.h; sourceTree = "<group>"; };
+		D9A6CC29209937C900A5C132 /* lib.rs */ = {isa = PBXFileReference; lastKnownFileType = text; path = lib.rs; sourceTree = "<group>"; };
+		D9A6CC2A209937C900A5C132 /* string.rs */ = {isa = PBXFileReference; lastKnownFileType = text; path = string.rs; sourceTree = "<group>"; };
+		D9A6CC362099403800A5C132 /* libexample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexample.a; path = target/release/libexample.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +175,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A6CC372099403800A5C132 /* libexample.a in Frameworks */,
 				D9A6CB232098EE7E00A5C132 /* libresolv.tbd in Frameworks */,
-				D9092D6D2093DB80009F47D8 /* libexample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A6CC382099408900A5C132 /* libexample.a in Frameworks */,
 				D9092D5C2093D808009F47D8 /* ExampleCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +346,7 @@
 		D9092D652093D9C9009F47D8 /* macos */ = {
 			isa = PBXGroup;
 			children = (
-				D9092D6C2093DB80009F47D8 /* libexample.a */,
+				D9A6CC362099403800A5C132 /* libexample.a */,
 			);
 			name = macos;
 			sourceTree = "<group>";
@@ -348,22 +362,86 @@
 		D92AD2BF2093F02400E197E8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D9A6CB24209937C900A5C132 /* Rust */,
 				D9092D412093D7AA009F47D8 /* ExampleSwift */,
 				D9092D262093D3A3009F47D8 /* ExampleCore */,
-				D92AD2C02093F02400E197E8 /* Rust */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		D92AD2C02093F02400E197E8 /* Rust */ = {
+		D9A6CB24209937C900A5C132 /* Rust */ = {
 			isa = PBXGroup;
 			children = (
-				D9092D392093D755009F47D8 /* example.h */,
-				D9092D302093D447009F47D8 /* message.rs */,
-				D9092D312093D447009F47D8 /* lib.rs */,
-				D9092D332093D447009F47D8 /* string.rs */,
+				D9A6CB25209937C900A5C132 /* apple */,
+				D9A6CBC9209937C900A5C132 /* universal */,
+				D9A6CBCB209937C900A5C132 /* java */,
+				D9A6CBCF209937C900A5C132 /* generic */,
 			);
 			path = Rust;
+			sourceTree = "<group>";
+		};
+		D9A6CB25209937C900A5C132 /* apple */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6CB26209937C900A5C132 /* Cargo.toml */,
+				D9A6CBC6209937C900A5C132 /* Cargo.lock */,
+				D9A6CBC7209937C900A5C132 /* src */,
+			);
+			path = apple;
+			sourceTree = "<group>";
+		};
+		D9A6CBC7209937C900A5C132 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6CBC8209937C900A5C132 /* lib.rs */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D9A6CBC9209937C900A5C132 /* universal */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6CBCA209937C900A5C132 /* lib.rs */,
+			);
+			path = universal;
+			sourceTree = "<group>";
+		};
+		D9A6CBCB209937C900A5C132 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6CBCC209937C900A5C132 /* Cargo.toml */,
+				D9A6CBCD209937C900A5C132 /* src */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		D9A6CBCD209937C900A5C132 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6CBCE209937C900A5C132 /* lib.rs */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D9A6CBCF209937C900A5C132 /* generic */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6CBD0209937C900A5C132 /* Cargo.toml */,
+				D9A6CC25209937C900A5C132 /* Cargo.lock */,
+				D9A6CC26209937C900A5C132 /* src */,
+			);
+			path = generic;
+			sourceTree = "<group>";
+		};
+		D9A6CC26209937C900A5C132 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6CC27209937C900A5C132 /* message.rs */,
+				D9A6CC28209937C900A5C132 /* example.h */,
+				D9A6CC29209937C900A5C132 /* lib.rs */,
+				D9A6CC2A209937C900A5C132 /* string.rs */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,7 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092D292093D3A3009F47D8 /* ExampleCore.h in Headers */,
-				D9092D3A2093D755009F47D8 /* example.h in Headers */,
+				D9A6CC452099426100A5C132 /* example.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092D502093D7AA009F47D8 /* ExampleSwift.h in Headers */,
+				D9A6CC392099414800A5C132 /* example.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092D842093E464009F47D8 /* ExampleCore.h in Headers */,
-				D9092D852093E464009F47D8 /* example.h in Headers */,
+				D9A6CC462099426100A5C132 /* example.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092D9A2093E528009F47D8 /* ExampleSwift.h in Headers */,
+				D9A6CC3A2099414800A5C132 /* example.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092DCC2093E9B0009F47D8 /* ExampleCore.h in Headers */,
-				D9092DCD2093E9B0009F47D8 /* example.h in Headers */,
+				D9A6CC472099426200A5C132 /* example.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +497,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092DDD2093EA32009F47D8 /* ExampleCore.h in Headers */,
-				D9092DDE2093EA32009F47D8 /* example.h in Headers */,
+				D9A6CC482099426200A5C132 /* example.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +506,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092DFA2093EB15009F47D8 /* ExampleSwift.h in Headers */,
+				D9A6CC3C2099414900A5C132 /* example.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +515,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092E092093EB74009F47D8 /* ExampleSwift.h in Headers */,
+				D9A6CC3B2099414900A5C132 /* example.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +524,7 @@
 /* Begin PBXLegacyTarget section */
 		D9092D722093E0B7009F47D8 /* cargo (macOS) */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "build --release";
+			buildArgumentsString = "build --release --features \"apple\"";
 			buildConfigurationList = D9092D732093E0B7009F47D8 /* Build configuration list for PBXLegacyTarget "cargo (macOS)" */;
 			buildPhases = (
 			);
@@ -456,7 +538,7 @@
 		};
 		D9092D782093E430009F47D8 /* cargo (iOS) */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "lipo --release";
+			buildArgumentsString = "lipo --release --features \"apple\"";
 			buildConfigurationList = D9092D792093E430009F47D8 /* Build configuration list for PBXLegacyTarget "cargo (iOS)" */;
 			buildPhases = (
 			);
@@ -502,7 +584,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9092D5A2093D804009F47D8 /* PBXTargetDependency */,
+				D9A6CC3E209941D900A5C132 /* PBXTargetDependency */,
 			);
 			name = "ExampleSwift (macOS)";
 			productName = Example;
@@ -558,7 +640,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9092DBE2093E6EE009F47D8 /* PBXTargetDependency */,
+				D9A6CC40209941E000A5C132 /* PBXTargetDependency */,
 			);
 			name = "ExampleSwift (iOS)";
 			productName = Example;
@@ -651,7 +733,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9092E112093EC7B009F47D8 /* PBXTargetDependency */,
+				D9A6CC42209941E800A5C132 /* PBXTargetDependency */,
 			);
 			name = "ExampleSwift (watchOS)";
 			productName = Example;
@@ -670,7 +752,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9092E132093EC83009F47D8 /* PBXTargetDependency */,
+				D9A6CC44209941ED00A5C132 /* PBXTargetDependency */,
 			);
 			name = "ExampleSwift (tvOS)";
 			productName = Example;
@@ -913,11 +995,6 @@
 			target = D9092D3F2093D7A9009F47D8 /* ExampleSwift (macOS) */;
 			targetProxy = D9092D4A2093D7AA009F47D8 /* PBXContainerItemProxy */;
 		};
-		D9092D5A2093D804009F47D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D9092D232093D3A3009F47D8 /* ExampleCore (macOS) */;
-			targetProxy = D9092D592093D804009F47D8 /* PBXContainerItemProxy */;
-		};
 		D9092D772093E200009F47D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D9092D722093E0B7009F47D8 /* cargo (macOS) */;
@@ -933,11 +1010,6 @@
 			target = D9092D922093E528009F47D8 /* ExampleSwift (iOS) */;
 			targetProxy = D9092DB82093E629009F47D8 /* PBXContainerItemProxy */;
 		};
-		D9092DBE2093E6EE009F47D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D9092D7C2093E464009F47D8 /* ExampleCore (iOS) */;
-			targetProxy = D9092DBD2093E6EE009F47D8 /* PBXContainerItemProxy */;
-		};
 		D9092DC42093E9B0009F47D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D9092D782093E430009F47D8 /* cargo (iOS) */;
@@ -948,20 +1020,30 @@
 			target = D9092D782093E430009F47D8 /* cargo (iOS) */;
 			targetProxy = D9092DD62093EA32009F47D8 /* PBXContainerItemProxy */;
 		};
-		D9092E112093EC7B009F47D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D9092DC32093E9B0009F47D8 /* ExampleCore (watchOS) */;
-			targetProxy = D9092E102093EC7B009F47D8 /* PBXContainerItemProxy */;
-		};
-		D9092E132093EC83009F47D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D9092DD42093EA32009F47D8 /* ExampleCore (tvOS) */;
-			targetProxy = D9092E122093EC83009F47D8 /* PBXContainerItemProxy */;
-		};
 		D9092E152093EC90009F47D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D9092E012093EB74009F47D8 /* ExampleSwift (tvOS) */;
 			targetProxy = D9092E142093EC90009F47D8 /* PBXContainerItemProxy */;
+		};
+		D9A6CC3E209941D900A5C132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9092D722093E0B7009F47D8 /* cargo (macOS) */;
+			targetProxy = D9A6CC3D209941D900A5C132 /* PBXContainerItemProxy */;
+		};
+		D9A6CC40209941E000A5C132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9092D782093E430009F47D8 /* cargo (iOS) */;
+			targetProxy = D9A6CC3F209941E000A5C132 /* PBXContainerItemProxy */;
+		};
+		D9A6CC42209941E800A5C132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9092D782093E430009F47D8 /* cargo (iOS) */;
+			targetProxy = D9A6CC41209941E800A5C132 /* PBXContainerItemProxy */;
+		};
+		D9A6CC44209941ED00A5C132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9092D782093E430009F47D8 /* cargo (iOS) */;
+			targetProxy = D9A6CC43209941ED00A5C132 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1040,7 +1122,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
 				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1115,7 +1196,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
 				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1202,6 +1282,10 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/target/release",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -1274,6 +1358,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/target/release",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisballinger.Example;
@@ -1705,7 +1793,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
 				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1780,7 +1867,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
 				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2143,7 +2229,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
 				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2218,7 +2303,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
 				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2298,7 +2382,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
 				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2373,7 +2456,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/src/";
 				INFOPLIST_FILE = Source/ExampleCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (

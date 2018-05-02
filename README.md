@@ -62,7 +62,7 @@ $ rustup default nightly
 
 #### Android
 
-Install [Android NDK](https://developer.android.com/ndk/):
+Install [Android NDK](https://developer.android.com/ndk/) (tested on version r16b):
 
 ```
 $ brew cask install android-ndk

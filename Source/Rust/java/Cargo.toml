@@ -1,0 +1,12 @@
+[package]
+name = "example-java"
+version = "0.1.0"
+authors = ["Chris Ballinger <chrisballinger@gmail.com>"]
+
+[lib]
+name = "example_java"
+crate-type = ["cdylib"]
+
+[dependencies]
+jni = "0.10"
+example-generic = { path = "../generic" }

@@ -1,16 +1,24 @@
+[workspace]
+members = ["Source/Rust/generic", "Source/Rust/apple", "Source/Rust/java"]
+
 [package]
-name = "rust-framework-template"
+name = "example-universal"
 version = "0.1.0"
 authors = ["Chris Ballinger <chrisballinger@gmail.com>"]
 
 [lib]
 name = "example"
-crate-type = ["staticlib"]
-path = "Source/Rust/lib.rs"
+path = "Source/Rust/universal/lib.rs"
+crate-type = ["staticlib", "cdylib"]
 
+[features]
+apple = ["example-apple"]
+java = ["example-java"]
 
 [profile.release]
 debug = true
 
 [dependencies]
-libc = "0.1"
+example-generic = { path = "Source/Rust/generic" }
+example-apple = { path = "Source/Rust/apple", optional = true }
+example-java = { path = "Source/Rust/java", optional = true }

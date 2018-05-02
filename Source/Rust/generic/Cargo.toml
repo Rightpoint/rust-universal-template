@@ -1,0 +1,10 @@
+[package]
+name = "example-generic"
+version = "0.1.0"
+authors = ["Chris Ballinger <chrisballinger@gmail.com>"]
+
+[lib]
+name = "example_generic"
+
+[dependencies]
+libc = "0.2"

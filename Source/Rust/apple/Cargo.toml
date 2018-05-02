@@ -1,0 +1,12 @@
+[package]
+name = "example-apple"
+version = "0.1.0"
+authors = ["Chris Ballinger <chrisballinger@gmail.com>"]
+
+[lib]
+name = "example_apple"
+
+[dependencies]
+dispatch = "0.1"
+objc-foundation = "0.1"
+example-generic = { path = "../generic" }

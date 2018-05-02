@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import ExampleCore
 
 public class Message {
     private let raw: OpaquePointer
