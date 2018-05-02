@@ -9,7 +9,7 @@ authors = ["Chris Ballinger <chrisballinger@gmail.com>"]
 [lib]
 name = "example"
 path = "Source/Rust/universal/lib.rs"
-crate-type = ["staticlib", "cdylib"]
+crate-type = ["staticlib", "cdylib", "rlib"]
 
 [features]
 apple = ["example-apple"]

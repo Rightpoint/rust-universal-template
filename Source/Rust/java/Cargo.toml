@@ -5,7 +5,7 @@ authors = ["Chris Ballinger <chrisballinger@gmail.com>"]
 
 [lib]
 name = "example_java"
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 jni = "0.10"

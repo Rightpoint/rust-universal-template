@@ -5,6 +5,7 @@ authors = ["Chris Ballinger <chrisballinger@gmail.com>"]
 
 [lib]
 name = "example_apple"
+crate-type = ["staticlib", "rlib"]
 
 [dependencies]
 dispatch = "0.1"
