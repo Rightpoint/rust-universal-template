@@ -1,8 +1,12 @@
+# macOS
 .DS_Store
+
+# Rust
 target/
 **/*.rs.bk
 Cargo.lock
-.DS_Store
+
+# Xcode
 build
 *.mode1v3
 *.pbxuser
@@ -12,6 +16,5 @@ xcuserdata
 DerivedData
 *.orig
 *.xccheckout
-
 Pods/
 Carthage/

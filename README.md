@@ -66,13 +66,17 @@ $ rustup default nightly
 
 Install [Android NDK](https://developer.android.com/ndk/) (tested on version r16b):
 
-```
+```bash
+# android-sdk requires Java 8
+$ brew cask install caskroom/versions/java8
+$ brew cask install android-sdk
 $ brew cask install android-ndk
 ```
 
-Add `ANDROID_NDK_HOME` to your bash profile (e.g. `~/.profile`):
+Add `ANDROID_SDK_ROOT` and `ANDROID_NDK_HOME` to your bash profile (e.g. `~/.profile`):
 
 ```bash
+export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
 ```
 
@@ -106,14 +110,25 @@ This iOS/macOS framework contains a Swift wrapper around the the C interface exp
 
 ### Reference
 
+#### Tools
+
 * [cargo-lipo](https://github.com/TimNN/cargo-lipo) - Cargo subcommand to automatically create universal libraries for iOS.
-* [rust-to-ios](https://github.com/wojteklu/rust-to-ios) - Example project for building a library for iOS in Rust.
-* [rust-ios-android](https://github.com/kennytm/rust-ios-android) - Example project for building Rust library for iOS and Android
-* [rust_on_mobile](https://github.com/Geal/rust_on_mobile) - iOS and Android examples
 * [cbindgen](https://github.com/eqrion/cbindgen/) - A project for generating C bindings from Rust code
 * [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Interoperating JavaScript and Rust
 * [rust-bindgen](https://github.com/rust-lang-nursery/rust-bindgen) - Automatically generates Rust FFI bindings to C (and some C++) libraries
+
+#### Examples
+
+* [cross-platform-rust](https://github.com/fluffyemily/cross-platform-rust) - Example project showing a Rust library running on iOS and Android
+* [rust-to-ios](https://github.com/wojteklu/rust-to-ios) - Example project for building a library for iOS in Rust.
+* [rust-ios-android](https://github.com/kennytm/rust-ios-android) - Example project for building Rust library for iOS and Android
+* [rust_on_mobile](https://github.com/Geal/rust_on_mobile) - iOS and Android examples
+
+#### Articles
+
 * [JavaScript to Rust and Back Again: A wasm-bindgen Tale](https://hacks.mozilla.org/2018/04/javascript-to-rust-and-back-again-a-wasm-bindgen-tale/)
+* [Building and Deploying a Rust library on Android](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html)
+* [Building and Deploying a Rust library on iOS](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-06-rust-on-ios.html)
 
 ### License
 
