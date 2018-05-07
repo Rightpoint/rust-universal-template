@@ -27,7 +27,6 @@ call_gcc()
 
   ANDROID_CPU_ARCH_DIR=$4
   ANDROID_CXX_LIBS="${ANDROID_NDK_HOME}/sources/cxx-stl/llvm-libc++/libs/${ANDROID_CPU_ARCH_DIR}"
-  export CC="${ANDROID_TOOLCHAIN}/${_ANDROID_EABI}-gcc"
 
   echo "toolchain: ${ANDROID_TOOLCHAIN}"
   echo "libs dir: ${ANDROID_CXX_LIBS}"

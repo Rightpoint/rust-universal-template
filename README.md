@@ -67,17 +67,16 @@ $ rustup default nightly
 Install [Android NDK](https://developer.android.com/ndk/) (tested on version r16b):
 
 ```bash
-# android-sdk requires Java 8
-$ brew cask install caskroom/versions/java8
-$ brew cask install android-sdk
 $ brew cask install android-ndk
 ```
 
-Add `ANDROID_SDK_ROOT` and `ANDROID_NDK_HOME` to your bash profile (e.g. `~/.profile`):
+Add `ANDROID_NDK_HOME` to your bash profile (e.g. `~/.profile`):
 
 ```bash
-export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
+# Android
 export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
+export PATH="$ANDROID_NDK_HOME/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin:$PATH"
+export PATH="$ANDROID_NDK_HOME/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin:$PATH"
 ```
 
 Install Android Rust targets:
