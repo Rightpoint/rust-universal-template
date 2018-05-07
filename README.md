@@ -129,6 +129,7 @@ This iOS/macOS framework contains a Swift wrapper around the the C interface exp
 * [JavaScript to Rust and Back Again: A wasm-bindgen Tale](https://hacks.mozilla.org/2018/04/javascript-to-rust-and-back-again-a-wasm-bindgen-tale/)
 * [Building and Deploying a Rust library on Android](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html)
 * [Building and Deploying a Rust library on iOS](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-06-rust-on-ios.html)
+* [Building for Android](https://github.com/servo/servo/wiki/Building-for-Android) - Servo's Android toolchain setup
 
 ### License
 
