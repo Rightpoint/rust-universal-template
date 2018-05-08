@@ -19,13 +19,13 @@
 		D9092DBF2093E729009F47D8 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9092D4D2093D7AA009F47D8 /* ExampleTests.swift */; };
 		D9092DC02093E82B009F47D8 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D8E2093E4E6009F47D8 /* libexample.a */; };
 		D9092DC22093E852009F47D8 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092DC12093E852009F47D8 /* libresolv.tbd */; };
+		D9945EF120A256C000E4F1A0 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D9945EF220A256C100E4F1A0 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D9A6CB232098EE7E00A5C132 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A6CB222098EE7D00A5C132 /* libresolv.tbd */; };
 		D9A6CC372099403800A5C132 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A6CC362099403800A5C132 /* libexample.a */; };
 		D9A6CC382099408900A5C132 /* libexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A6CC362099403800A5C132 /* libexample.a */; };
 		D9A6CC392099414800A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9A6CC3A2099414800A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9A6CC452099426100A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D9A6CC462099426100A5C132 /* example.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A6CC28209937C900A5C132 /* example.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D9E68900209A540A008AAF78 /* ExampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D242093D3A3009F47D8 /* ExampleObjC.framework */; };
 		D9E68905209A5421008AAF78 /* ExampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9092D8A2093E464009F47D8 /* ExampleObjC.framework */; };
 		D9E68908209A5495008AAF78 /* RSTMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E68906209A5495008AAF78 /* RSTMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -365,7 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092D292093D3A3009F47D8 /* ExampleObjC.h in Headers */,
-				D9A6CC452099426100A5C132 /* example.h in Headers */,
+				D9945EF220A256C100E4F1A0 /* example.h in Headers */,
 				D9E68908209A5495008AAF78 /* RSTMessage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9092D842093E464009F47D8 /* ExampleObjC.h in Headers */,
-				D9A6CC462099426100A5C132 /* example.h in Headers */,
+				D9945EF120A256C000E4F1A0 /* example.h in Headers */,
 				D9E68909209A5495008AAF78 /* RSTMessage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

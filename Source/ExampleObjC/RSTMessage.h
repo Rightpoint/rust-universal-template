@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 @interface RSTMessage: NSObject
-@property (nonatomic, readonly) NSString *name;
+@property (nonatomic, readonly, nullable) NSString *name;
 
 - (instancetype) initWithText:(NSString*)text NS_DESIGNATED_INITIALIZER;
 

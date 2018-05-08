@@ -40,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
     _message = nil;
 }
 
-- (NSString*) name {
+- (nullable NSString*) name {
     struct ByteSlice slice = message_get_text(_message);
     return [NSString stringFromByteSlice:slice];
 }
