@@ -14,8 +14,10 @@
 		D9945EB220A2547B00E4F1A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9945EB020A2547B00E4F1A0 /* LaunchScreen.storyboard */; };
 		D9945EBD20A2547C00E4F1A0 /* ExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9945EBC20A2547C00E4F1A0 /* ExampleAppTests.swift */; };
 		D9945EC820A2547C00E4F1A0 /* ExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9945EC720A2547C00E4F1A0 /* ExampleAppUITests.swift */; };
-		D9945EEE20A2551F00E4F1A0 /* ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9945EED20A2551F00E4F1A0 /* ExampleSwift.framework */; };
-		D9945EF020A2567500E4F1A0 /* ExampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9945EEF20A2567500E4F1A0 /* ExampleObjC.framework */; };
+		D9945F0B20A259F600E4F1A0 /* ExampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9945F0120A259DA00E4F1A0 /* ExampleObjC.framework */; };
+		D9945F0C20A259F600E4F1A0 /* ExampleObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9945F0120A259DA00E4F1A0 /* ExampleObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9945F1020A259FA00E4F1A0 /* ExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9945F0520A259DA00E4F1A0 /* ExampleSwift.framework */; };
+		D9945F1120A259FA00E4F1A0 /* ExampleSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9945F0520A259DA00E4F1A0 /* ExampleSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,78 @@
 			remoteGlobalIDString = D9945EA320A2547A00E4F1A0;
 			remoteInfo = ExampleApp;
 		};
+		D9945EFE20A259DA00E4F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9092D242093D3A3009F47D8;
+			remoteInfo = "ExampleObjC (macOS)";
+		};
+		D9945F0020A259DA00E4F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9092D8A2093E464009F47D8;
+			remoteInfo = "ExampleObjC (iOS)";
+		};
+		D9945F0220A259DA00E4F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9092D402093D7A9009F47D8;
+			remoteInfo = "ExampleSwift (macOS)";
+		};
+		D9945F0420A259DA00E4F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9092D9F2093E528009F47D8;
+			remoteInfo = "ExampleSwift (iOS)";
+		};
+		D9945F0620A259DA00E4F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9092D482093D7AA009F47D8;
+			remoteInfo = "ExampleTests (macOS)";
+		};
+		D9945F0820A259DA00E4F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9092DB22093E629009F47D8;
+			remoteInfo = "ExampleTests (iOS)";
+		};
+		D9945F0D20A259F600E4F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D9092D7C2093E464009F47D8;
+			remoteInfo = "ExampleObjC (iOS)";
+		};
+		D9945F1220A259FA00E4F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D9092D922093E528009F47D8;
+			remoteInfo = "ExampleSwift (iOS)";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9945F0F20A259F600E4F1A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D9945F0C20A259F600E4F1A0 /* ExampleObjC.framework in Embed Frameworks */,
+				D9945F1120A259FA00E4F1A0 /* ExampleSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D9945EA420A2547A00E4F1A0 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +124,7 @@
 		D9945EC920A2547C00E4F1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9945EED20A2551F00E4F1A0 /* ExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9945EEF20A2567500E4F1A0 /* ExampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ExampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Example.xcodeproj; path = ../../Example.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +132,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9945EF020A2567500E4F1A0 /* ExampleObjC.framework in Frameworks */,
-				D9945EEE20A2551F00E4F1A0 /* ExampleSwift.framework in Frameworks */,
+				D9945F0B20A259F600E4F1A0 /* ExampleObjC.framework in Frameworks */,
+				D9945F1020A259FA00E4F1A0 /* ExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +157,7 @@
 		D9945E9B20A2547A00E4F1A0 = {
 			isa = PBXGroup;
 			children = (
+				D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */,
 				D9945EA620A2547A00E4F1A0 /* Source */,
 				D9945EBB20A2547C00E4F1A0 /* Tests */,
 				D9945EC620A2547C00E4F1A0 /* UITests */,
@@ -141,6 +216,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D9945EF420A259DA00E4F1A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9945EFF20A259DA00E4F1A0 /* ExampleObjC.framework */,
+				D9945F0120A259DA00E4F1A0 /* ExampleObjC.framework */,
+				D9945F0320A259DA00E4F1A0 /* ExampleSwift.framework */,
+				D9945F0520A259DA00E4F1A0 /* ExampleSwift.framework */,
+				D9945F0720A259DA00E4F1A0 /* ExampleTests.xctest */,
+				D9945F0920A259DA00E4F1A0 /* ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,10 +239,13 @@
 				D9945EA020A2547A00E4F1A0 /* Sources */,
 				D9945EA120A2547A00E4F1A0 /* Frameworks */,
 				D9945EA220A2547A00E4F1A0 /* Resources */,
+				D9945F0F20A259F600E4F1A0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D9945F0E20A259F600E4F1A0 /* PBXTargetDependency */,
+				D9945F1320A259FA00E4F1A0 /* PBXTargetDependency */,
 			);
 			name = ExampleApp;
 			productName = ExampleApp;
@@ -231,6 +322,12 @@
 			mainGroup = D9945E9B20A2547A00E4F1A0;
 			productRefGroup = D9945EA520A2547A00E4F1A0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D9945EF420A259DA00E4F1A0 /* Products */;
+					ProjectRef = D9945EF320A259DA00E4F1A0 /* Example.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D9945EA320A2547A00E4F1A0 /* ExampleApp */,
@@ -239,6 +336,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D9945EFF20A259DA00E4F1A0 /* ExampleObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ExampleObjC.framework;
+			remoteRef = D9945EFE20A259DA00E4F1A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9945F0120A259DA00E4F1A0 /* ExampleObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ExampleObjC.framework;
+			remoteRef = D9945F0020A259DA00E4F1A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9945F0320A259DA00E4F1A0 /* ExampleSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ExampleSwift.framework;
+			remoteRef = D9945F0220A259DA00E4F1A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9945F0520A259DA00E4F1A0 /* ExampleSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ExampleSwift.framework;
+			remoteRef = D9945F0420A259DA00E4F1A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9945F0720A259DA00E4F1A0 /* ExampleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExampleTests.xctest;
+			remoteRef = D9945F0620A259DA00E4F1A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D9945F0920A259DA00E4F1A0 /* ExampleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExampleTests.xctest;
+			remoteRef = D9945F0820A259DA00E4F1A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D9945EA220A2547A00E4F1A0 /* Resources */ = {
@@ -305,6 +447,16 @@
 			isa = PBXTargetDependency;
 			target = D9945EA320A2547A00E4F1A0 /* ExampleApp */;
 			targetProxy = D9945EC420A2547C00E4F1A0 /* PBXContainerItemProxy */;
+		};
+		D9945F0E20A259F600E4F1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ExampleObjC (iOS)";
+			targetProxy = D9945F0D20A259F600E4F1A0 /* PBXContainerItemProxy */;
+		};
+		D9945F1320A259FA00E4F1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ExampleSwift (iOS)";
+			targetProxy = D9945F1220A259FA00E4F1A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -445,6 +597,7 @@
 		D9945ECD20A2547C00E4F1A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Source/Info.plist;
@@ -462,6 +615,7 @@
 		D9945ECE20A2547C00E4F1A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Source/Info.plist;

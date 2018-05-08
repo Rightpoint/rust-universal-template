@@ -156,13 +156,19 @@ jobs:
           keys:
             - mac-cargo-v4-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
       - run:
-          name: Test macOS
+          name: Test macOS Framework
           command: |
             xcodebuild -project Example.xcodeproj -scheme "ExampleTests (macOS)" clean test | xcpretty -c
       - run:
-          name: Test iOS
+          name: Test iOS Framework
           command: |
             xcodebuild -project Example.xcodeproj -scheme "ExampleTests (iOS)" -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' clean test | xcpretty -c
+      - run:
+          name: Build iOS Example App
+          command: |
+            cd Examples/iOS
+            xcodebuild -project ExampleApp.xcodeproj -scheme "ExampleApp" -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' clean build | xcpretty -c
+
 
   # coverage:
   #   docker:
