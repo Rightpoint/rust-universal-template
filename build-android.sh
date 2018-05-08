@@ -24,7 +24,7 @@ PATH="$NDK_DIR/x86/bin:$PATH"
 PATH="$NDK_DIR/x86_64/bin:$PATH"
 
 cd "$SCRIPT_DIR"
-cargo build --target armv7-linux-androideabi --release
-cargo build --target aarch64-linux-android --release
-cargo build --target i686-linux-android --release
-cargo build --target x86_64-linux-android --release
+cargo build --target armv7-linux-androideabi --features "java" --release
+cargo build --target aarch64-linux-android --features "java"  --release
+cargo build --target i686-linux-android --features "java"  --release
+cargo build --target x86_64-linux-android --features "java"  --release
