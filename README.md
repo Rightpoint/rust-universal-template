@@ -73,16 +73,19 @@ $ brew cask install android-ndk
 Add `ANDROID_NDK_HOME` to your bash profile (e.g. `~/.profile`):
 
 ```bash
-# Android
 export ANDROID_NDK_HOME="/usr/local/share/android-ndk"
-export PATH="$ANDROID_NDK_HOME/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin:$PATH"
-export PATH="$ANDROID_NDK_HOME/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin:$PATH"
 ```
 
 Install Android Rust targets:
 
 ```
 $ rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android
+```
+
+Run `build-android.sh`. This will create a standalone NDK toolchain and in the `NDK` directory if needed, and then run `cargo build` for all Android targets.
+
+```
+$ ./build-android.sh
 ```
 
 #### Install Visual Studio Code (optional)
@@ -129,6 +132,7 @@ This iOS/macOS framework contains a Swift wrapper around the the C interface exp
 * [Building and Deploying a Rust library on Android](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html)
 * [Building and Deploying a Rust library on iOS](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-06-rust-on-ios.html)
 * [Building for Android](https://github.com/servo/servo/wiki/Building-for-Android) - Servo's Android toolchain setup
+* [Taking Rust everywhere with rustup](https://blog.rust-lang.org/2016/05/13/rustup.html)
 
 ### License
 
