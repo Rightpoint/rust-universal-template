@@ -95,6 +95,38 @@ Run `build-android.sh`. This will create a standalone NDK toolchain and in the `
 $ ./build-android.sh
 ```
 
+### Java
+
+To regenerate the Java JNI bindings, you need to first compile the Java with `javac` and then run `javah` to generate a C header. This generated header `HelloWorld.h` shows us the expected method signature for the JNI function.
+
+```bash
+# Compile Java
+$ javac Source/Java/HelloWorld.java
+# Generate C header JNI interface
+$ javah -classpath Source/Java -d Source/Java HelloWorld
+```
+
+
+To run your compiled Java that calls into Rust.
+
+```bash
+$ java -classpath Source/Java HelloWorld
+```
+
+
+The corresponding Rust source code can be found in `Source/Rust/java/src/lib.rs`. We must first compile it, so the output shared library (`libexample.dylib` on macOS) can be found by Java.
+
+```bash
+$ cargo build --features "java" --release
+```
+
+Finally, we can run our Java code that calls into the Rust code:
+
+```bash
+$ java -Djava.library.path=target/release -classpath Source/Java HelloWorld
+Hello, from Rust!!
+```
+
 ### Install Visual Studio Code (optional)
 
 VS Code offers an IDE-like experiene for developing your Rust code, including some rough LLDB debugging support.

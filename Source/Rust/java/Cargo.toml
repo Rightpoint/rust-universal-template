@@ -9,4 +9,5 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 jni = "0.10"
+libc = "0.2"
 example-generic = { path = "../generic" }
