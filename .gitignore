@@ -22,3 +22,4 @@ Carthage/
 # Android
 NDK/
 cargo-config.toml
+*.class
