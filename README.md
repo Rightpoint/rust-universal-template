@@ -147,6 +147,7 @@ This iOS/macOS framework contains a Swift wrapper around the the C interface exp
 
 ### Tools
 
+* [android-rs-glue](https://github.com/tomaka/android-rs-glue) - Glue between Rust and Android, including `cargo-apk` command
 * [cargo-lipo](https://github.com/TimNN/cargo-lipo) - Cargo subcommand to automatically create universal libraries for iOS.
 * [cbindgen](https://github.com/eqrion/cbindgen/) - A project for generating C bindings from Rust code
 * [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Interoperating JavaScript and Rust
