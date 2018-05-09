@@ -106,14 +106,6 @@ $ javac Source/Java/HelloWorld.java
 $ javah -classpath Source/Java -d Source/Java HelloWorld
 ```
 
-
-To run your compiled Java that calls into Rust.
-
-```bash
-$ java -classpath Source/Java HelloWorld
-```
-
-
 The corresponding Rust source code can be found in `Source/Rust/java/src/lib.rs`. We must first compile it, so the output shared library (`libexample.dylib` on macOS) can be found by Java.
 
 ```bash

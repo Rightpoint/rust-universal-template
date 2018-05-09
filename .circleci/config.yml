@@ -143,6 +143,23 @@ jobs:
             - /Users/distiller/.bash_profile
             - /Users/distiller/.cargo
             - /Users/distiller/.rustup
+  macos-build-java:
+    macos:
+      xcode: "9.3.0"
+    shell: /bin/bash --login -eo pipefail
+    working_directory: /Users/distiller/project
+    steps:
+      - checkout
+      - attach_workspace:
+          at: "."
+      - restore_cache:
+          keys:
+            - mac-cargo-v4-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
+      - run:
+          name: Build & Run Java example
+          command: |
+            ./build-run-java.sh
+
   test-xcode-9-3:
     macos:
       xcode: "9.3.0"
