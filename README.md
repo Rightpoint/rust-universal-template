@@ -16,11 +16,12 @@ Template for creating universal Rust libraries with bindings to iOS/macOS (Swift
 	- [x] Carthage support
 	- [ ] CocoaPods support
 	- [ ] Automated Rust => Swift binding generation
-	- [x] Example app
+	- [x] Example iOS app
 - [ ] Android / Java
 	- [ ] Gradle library template
 	- [ ] Automated Rust => Java/JNI binding generation
-	- [ ] Example app	
+	- [x] Pure Java example
+	- [ ] Example Android app
 - [ ] Web Browsers / JavaScript
 	- [ ] JavaScript / WebAssembly template
 	- [ ] Automated Rust => JavaScript binding generation ([wasm-bindgen](https://github.com/rustwasm/wasm-bindgen))
