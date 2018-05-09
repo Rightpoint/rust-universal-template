@@ -1,18 +1,22 @@
 # Rust Universal Template
 
+[![Swift 4.1](https://img.shields.io/badge/Swift-4.1-orange.svg?style=flat)](https://swift.org)
+[![Rustc Version 1.25+](https://img.shields.io/badge/rustc-1.25+-lightgray.svg?style=flat)](https://www.rust-lang.org/en-US/)
 [![CircleCI](https://img.shields.io/circleci/project/github/Raizlabs/rust-universal-template/master.svg)](https://circleci.com/gh/Raizlabs/rust-universal-template)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 
 Template for creating universal Rust libraries with bindings to iOS/macOS (Swift), Android (Java/JNI), JavaScript (WebAssembly), and more.
 
-### Goals
+## Goals
 
 - [ ] iOS / macOS
 	- [x] Swift Framework template
 	- [x] Run `cargo` via Xcode External Build System
-	- [ ] Carthage support
+	- [x] Carthage support
 	- [ ] CocoaPods support
 	- [ ] Automated Rust => Swift binding generation
-	- [ ] Example app
+	- [x] Example app
 - [ ] Android / Java
 	- [ ] Gradle library template
 	- [ ] Automated Rust => Java/JNI binding generation
@@ -26,7 +30,7 @@ Template for creating universal Rust libraries with bindings to iOS/macOS (Swift
 	- [ ] Create [cookiecutter](https://github.com/audreyr/cookiecutter) template
 	- [ ] Documention and examples for best practices when using Rust from other languages
 
-### Setup
+## Setup
 
 Install Rust via [Rustup](https://rustup.rs/):
 
@@ -40,7 +44,7 @@ Make sure the Rust binaries are added to your `PATH` (e.g. inside `~/.profile`).
 export PATH="$HOME/.cargo/bin:$PATH"
 ```
 
-#### iOS
+### iOS
 
 Install the iOS targets for your selected toolchain:
 
@@ -54,7 +58,9 @@ Install `cargo-lipo` for generating universal iOS libraries:
 $ cargo install cargo-lipo
 ```
 
-If you want Bitcode support you'll need to use a Rust nightly 1.2.7+ build (as of 4-27-2018):
+#### Bitcode
+
+If you want Bitcode support you'll need to use a Rust nightly 1.2.7+ build (as of 4-27-2018). Unfortunately there still seems to be some issues with Bitcode so it is disabled for now. For more information see issue https://github.com/rust-lang/rust/issues/35968.
 
 ```bash
 $ rustup toolchain install nightly
@@ -62,7 +68,8 @@ $ rustup target add aarch64-apple-ios armv7-apple-ios x86_64-apple-ios i386-appl
 $ rustup default nightly
 ```
 
-#### Android
+
+### Android
 
 Install [Android NDK](https://developer.android.com/ndk/) (tested on version r16b):
 
@@ -88,7 +95,7 @@ Run `build-android.sh`. This will create a standalone NDK toolchain and in the `
 $ ./build-android.sh
 ```
 
-#### Install Visual Studio Code (optional)
+### Install Visual Studio Code (optional)
 
 VS Code offers an IDE-like experiene for developing your Rust code, including some rough LLDB debugging support.
 
@@ -96,37 +103,37 @@ VS Code offers an IDE-like experiene for developing your Rust code, including so
   * [rls-vscode](https://github.com/rust-lang-nursery/rls-vscode) (code completion)
   * [vscode-lldb](https://github.com/vadimcn/vscode-lldb) (debugging)
 
-### Structure
+## Structure
 
-#### `Source/Rust`
+### `Source/Rust`
 
 The src folder contains all of our Rust library source code (`.rs`) and a manually created C header file (`example.h`) exporting a few symbols of interest from our Rust code. The build output is a static library called `libexample.a`.
 
-#### `ExampleObjC.framework`
+### `ExampleObjC.framework`
 
 This iOS/macOS framework contains a Objective-C wrapper around the the C interface exposed by `example.h`.
 
-#### `ExampleSwift.framework`
+### `ExampleSwift.framework`
 
 This iOS/macOS framework contains a Swift wrapper around the the C interface exposed by `example.h`.
 
-### Reference
+## Reference
 
-#### Tools
+### Tools
 
 * [cargo-lipo](https://github.com/TimNN/cargo-lipo) - Cargo subcommand to automatically create universal libraries for iOS.
 * [cbindgen](https://github.com/eqrion/cbindgen/) - A project for generating C bindings from Rust code
 * [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) - Interoperating JavaScript and Rust
 * [rust-bindgen](https://github.com/rust-lang-nursery/rust-bindgen) - Automatically generates Rust FFI bindings to C (and some C++) libraries
 
-#### Examples
+### Examples
 
 * [cross-platform-rust](https://github.com/fluffyemily/cross-platform-rust) - Example project showing a Rust library running on iOS and Android
 * [rust-to-ios](https://github.com/wojteklu/rust-to-ios) - Example project for building a library for iOS in Rust.
 * [rust-ios-android](https://github.com/kennytm/rust-ios-android) - Example project for building Rust library for iOS and Android
 * [rust_on_mobile](https://github.com/Geal/rust_on_mobile) - iOS and Android examples
 
-#### Articles
+### Articles
 
 * [JavaScript to Rust and Back Again: A wasm-bindgen Tale](https://hacks.mozilla.org/2018/04/javascript-to-rust-and-back-again-a-wasm-bindgen-tale/)
 * [Building and Deploying a Rust library on Android](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html)
@@ -134,6 +141,6 @@ This iOS/macOS framework contains a Swift wrapper around the the C interface exp
 * [Building for Android](https://github.com/servo/servo/wiki/Building-for-Android) - Servo's Android toolchain setup
 * [Taking Rust everywhere with rustup](https://blog.rust-lang.org/2016/05/13/rustup.html)
 
-### License
+## License
 
 MIT
