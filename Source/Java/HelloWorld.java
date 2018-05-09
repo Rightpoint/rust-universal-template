@@ -1,7 +1,7 @@
-class HelloWorld {
+public class HelloWorld {
     // This declares that the static `hello` method will be provided
     // a native library.
-    private static native String hello(String input);
+    public static native String hello(String input);
 
     static {
         // This actually loads the shared object that we'll be creating.
@@ -9,11 +9,5 @@ class HelloWorld {
         // platform.
         // this looks for "libexample.dylib" on macOS
         System.loadLibrary("example");
-    }
-
-    // The rest is just regular ol' java!
-    public static void main(String[] args) {
-        String output = HelloWorld.hello("from Rust!");
-        System.out.println(output);
     }
 }

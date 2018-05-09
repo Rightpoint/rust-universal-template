@@ -146,6 +146,8 @@ jobs:
   macos-test-java:
     macos:
       xcode: "9.3.0"
+    environment:
+      HOMEBREW_NO_AUTO_UPDATE: 1
     shell: /bin/bash --login -eo pipefail
     working_directory: /Users/distiller/project
     steps:
@@ -155,6 +157,7 @@ jobs:
       - restore_cache:
           keys:
             - mac-cargo-v4-{{ checksum "Cargo.toml" }}-{{ checksum "Cargo.lock" }}
+      - run: brew install gradle
       - run:
           name: Build & Run Java example
           command: |

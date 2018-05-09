@@ -116,7 +116,8 @@ $ cargo build --features "java" --release
 Finally, we can run our Java code that calls into the Rust code:
 
 ```bash
-$ java -Djava.library.path=target/release -classpath Source/Java HelloWorld
+$ javac Examples/Java/HelloWorld/Main.java -classpath Source/Java
+$ java -Djava.library.path=target/release -classpath "Source/Java:Examples/Java/HelloWorld" Main
 Hello, from Rust!!
 ```
 
