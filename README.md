@@ -155,6 +155,7 @@ This iOS/macOS framework contains a Swift wrapper around the the C interface exp
 
 ### Examples
 
+* [parity-signer](https://github.com/paritytech/parity-signer) - Rust + React Native (iOS & Android)
 * [cross-platform-rust](https://github.com/fluffyemily/cross-platform-rust) - Example project showing a Rust library running on iOS and Android
 * [rust-to-ios](https://github.com/wojteklu/rust-to-ios) - Example project for building a library for iOS in Rust.
 * [rust-ios-android](https://github.com/kennytm/rust-ios-android) - Example project for building Rust library for iOS and Android
