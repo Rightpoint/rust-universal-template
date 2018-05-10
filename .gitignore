@@ -20,6 +20,7 @@ Pods/
 Carthage/
 
 # Android
+.idea/
 NDK/
 cargo-config.toml
 *.class
