@@ -1,0 +1,3 @@
+include ':app', ':examplelibrary'
+include ':rust-universal-template'
+project(":rust-universal-template").projectDir = file("../../../")
